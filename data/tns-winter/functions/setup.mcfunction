@@ -12,3 +12,8 @@ scoreboard objectives add winterDummy dummy
 
 scoreboard players set ticksPerWarmthCheck winterDummy 20
 scoreboard objectives add winterDeaths deathCount
+
+scoreboard objectives add CraftFurHelmet trigger
+scoreboard objectives add CraftFurChest trigger
+scoreboard objectives add CraftFurLegs trigger
+scoreboard objectives add CraftFurBoots trigger

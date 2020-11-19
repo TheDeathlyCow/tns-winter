@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "item": "minecraft:rabbit_hide",
+                "nbt": "{Fur:1b,display:{Name:'{\"italic\":false,\"text\":\"Fur\"}'}}",
+                "count": {
+                    "min": 7
+                }
+            }
+        }
+    },
+    "entity":"this"
+}

@@ -9,3 +9,5 @@ execute if score hypothermiaEnabled winterBoolean matches 1 if score ticksUntilW
 
 execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s warmth 0
 execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s winterDeaths 0
+
+execute as @a at @s run function tns-winter:custom_crafting/tick
