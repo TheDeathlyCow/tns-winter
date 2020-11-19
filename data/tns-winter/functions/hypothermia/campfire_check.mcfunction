@@ -78,4 +78,4 @@ execute if score warmedPlayers winterBoolean matches 0 if block ~2 ~-1 ~0 minecr
 execute if score warmedPlayers winterBoolean matches 0 if block ~2 ~-1 ~1 minecraft:campfire[lit=true] run function tns-winter:hypothermia/warm_player
 execute if score warmedPlayers winterBoolean matches 0 if block ~2 ~-1 ~2 minecraft:campfire[lit=true] run function tns-winter:hypothermia/warm_player
 
-scoreboard players set warmedPlayers winterBoolean 0
+# scoreboard players set warmedPlayers winterBoolean 0

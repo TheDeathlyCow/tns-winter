@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "tag": "tns-winter:warm_items"
+            }
+        }
+    },
+    "entity":"this"
+}
