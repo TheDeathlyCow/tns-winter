@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "location": {
+            "biome": "minecraft:taiga"
+        }
+    },
+    "entity":"this"
+}
