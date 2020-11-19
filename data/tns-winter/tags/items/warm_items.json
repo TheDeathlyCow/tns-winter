@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:torch",
+        "minecraft:lantern",
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots",
+        "minecraft:soul_torch",
+        "minecraft:soul_lantern"
+    ]
+}

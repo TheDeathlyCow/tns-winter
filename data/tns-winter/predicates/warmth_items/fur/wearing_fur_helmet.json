@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "item": "minecraft:leather_helmet",
+                "nbt": "{FurArmor:1b,display:{color:6043908,Name:'{\"italic\":false,\"text\":\"Fur Helmet\"}'}}"
+            }
+        }
+    },
+    "entity":"this"
+}

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "legs": {
+                "item": "minecraft:leather_leggings",
+                "nbt": "{FurArmor:1b,display:{color:6043908,Name:'{\"italic\":false,\"text\":\"Fur Leggings\"}'}}"
+            }
+        }
+    },
+    "entity":"this"
+}

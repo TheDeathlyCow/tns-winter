@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "chest": {
+                "item": "minecraft:leather_chestplate",
+                "nbt": "{FurArmor:1b,display:{color:6043908,Name:'{\"italic\":false,\"text\":\"Fur Chestplate\"}'}}"
+            }
+        }
+    },
+    "entity":"this"
+}

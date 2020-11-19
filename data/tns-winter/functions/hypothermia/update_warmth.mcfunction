@@ -4,12 +4,15 @@
 
 # say "update warmth"
 
-execute if block ~ ~ ~ minecraft:water run scoreboard players remove @s warmth 1
+execute if block ~ ~ ~ minecraft:water run scoreboard players remove @s warmth 3
 
-scoreboard players remove @s[tag=inMountains] warmth 3
-scoreboard players remove @s[tag=inGlacier] warmth 3
-scoreboard players remove @s[tag=inSnowTaiga] warmth 1
-scoreboard players remove @s[tag=outsideMap] warmth 25
+scoreboard players remove @s[tag=inMountains] warmth 18
+scoreboard players remove @s[tag=inGlacier] warmth 18
+scoreboard players remove @s[tag=inSnowTaiga] warmth 6
+scoreboard players remove @s[tag=outsideMap] warmth 120
+
+# check fur armour
+execute if entity @s[tag=inColdBiome] run function tns-winter:hypothermia/check_warmth_items
 
 
 execute if entity @s[tag=inMountains] run function tns-winter:hypothermia/soul_campfire_check
@@ -17,7 +20,7 @@ execute if entity @s[tag=inGlacier] run function tns-winter:hypothermia/soul_cam
 
 execute unless entity @s[tag=inMountains] unless entity @s[tag=inGlacier] run function tns-winter:hypothermia/campfire_check
 
-execute if score @s warmth matches ..-402 run scoreboard players set @s warmth -402
-execute if score @s warmth matches 2.. run scoreboard players set @s warmth 2
+execute if score @s warmth matches ..-1921 run scoreboard players set @s warmth -1921 
+execute if score @s warmth matches 0.. run scoreboard players set @s warmth 0
 
 scoreboard players set warmedPlayers winterBoolean 0

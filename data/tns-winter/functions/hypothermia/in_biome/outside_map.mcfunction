@@ -5,6 +5,7 @@ title @s times 10 40 20
 execute unless entity @s[tag=outsideMap] run title @s title {"text":"Outside the map","color":"dark_red","bold":"true"}
 execute unless entity @s[tag=inTaiga] run title @s subtitle {"text":"Level 99","color":"red","bold":"false"}
 tag @s add outsideMap
+tag @s remove inColdBiome
 tag @s remove inMountains
 tag @s remove inSnowTaiga
 tag @s remove inGlacier
