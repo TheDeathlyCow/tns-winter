@@ -11,3 +11,4 @@ execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s
 execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s winterDeaths 0
 
 execute as @a at @s run function tns-winter:custom_crafting/tick
+function tns-winter:animal_totems/tick

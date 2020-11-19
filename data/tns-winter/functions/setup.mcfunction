@@ -17,3 +17,15 @@ scoreboard objectives add CraftFurHelmet trigger
 scoreboard objectives add CraftFurChest trigger
 scoreboard objectives add CraftFurLegs trigger
 scoreboard objectives add CraftFurBoots trigger
+
+scoreboard objectives add FollowBee trigger
+scoreboard objectives add FollowFish trigger
+scoreboard objectives add FollowFox trigger
+scoreboard objectives add FollowRabbit trigger
+scoreboard objectives add FollowWolf trigger
+scoreboard objectives add FollowRaven trigger
+
+scoreboard objectives add AnimalTotem trigger
+
+scoreboard objectives add TotemCooldown dummy
+scoreboard players set MaxInt winterDummy 2147483647
