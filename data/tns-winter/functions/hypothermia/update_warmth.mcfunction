@@ -12,6 +12,8 @@ scoreboard players remove @s[tag=inGlacier] warmth 12
 scoreboard players remove @s[tag=inSnowTaiga] warmth 6
 scoreboard players remove @s[tag=outsideMap] warmth 120
 
+execute if predicate tns-winter:is_on_fire run scoreboard players add @s warmth 6
+
 
 # execute if entity @s[tag=inMountains] run function tns-winter:hypothermia/soul_campfire_check
 function tns-winter:hypothermia/soul_campfire_check

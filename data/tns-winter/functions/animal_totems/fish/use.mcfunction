@@ -5,4 +5,4 @@ effect give @s minecraft:luck 120 1
 effect give @s minecraft:water_breathing 300 0
 
 playsound minecraft:entity.fishing_bobber.splash master @s ~ ~ ~ 1 1 1
-tellraw @a [{"text":"The Fish grants you better fortune from hunting and the ability to swim without drowning or freezing...","color":"red"}]
+tellraw @s [{"text":"The Fish grants you better fortune from hunting and the ability to swim without drowning or freezing...","color":"red"}]
