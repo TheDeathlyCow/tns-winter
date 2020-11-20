@@ -12,3 +12,7 @@ execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s
 
 execute as @a at @s run function tns-winter:custom_crafting/tick
 function tns-winter:animal_totems/tick
+
+# prevents players from making nether or end portals
+execute as @a at @s if block ~ ~ ~ minecraft:nether_portal run setblock ~ ~ ~ minecraft:air destroy
+execute as @a at @s if block ~ ~ ~ minecraft:end_portal run setblock ~ ~ ~ minecraft:air destroy
