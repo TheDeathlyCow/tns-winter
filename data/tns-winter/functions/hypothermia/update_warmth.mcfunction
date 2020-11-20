@@ -4,7 +4,8 @@
 
 # say "update warmth"
 
-execute if block ~ ~ ~ minecraft:water run scoreboard players remove @s warmth 3
+execute if block ~ ~ ~ minecraft:water unless entity @s[tag=FishTotem] run scoreboard players remove @s warmth 3
+execute if block ~ ~1 ~ minecraft:water unless entity @s[tag=FishTotem] run scoreboard players remove @s warmth 3
 
 scoreboard players remove @s[tag=inMountains] warmth 12
 scoreboard players remove @s[tag=inGlacier] warmth 12
