@@ -7,7 +7,7 @@ title @s times 0 20 0
 title @s title [{"text":"You are freezing to death!","color":"blue"}]
 title @s subtitle [{"text":"Find a campfire quickly!","color":"aqua"}]
 
-effect give @s minecraft:slowness 1 3 true
+effect give @s minecraft:slowness 1 4 true
 effect give @s minecraft:weakness 1 2 true
 effect give @s minecraft:mining_fatigue 1 2 true
 effect give @s minecraft:blindness 5 0 true
