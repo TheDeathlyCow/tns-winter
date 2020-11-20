@@ -4,7 +4,7 @@
         "equipment": {
             "feet": {
                 "item": "minecraft:leather_boots",
-                "nbt": "{FurArmor:1b,display:{color:6043908,Name:'{\"italic\":false,\"text\":\"Fur Boots\"}'}}"
+                "nbt": "{FurArmor:1b}"
             }
         }
     },
