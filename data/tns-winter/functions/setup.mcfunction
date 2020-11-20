@@ -11,6 +11,7 @@ scoreboard players add warmedPlayers winterBoolean 0
 scoreboard objectives add winterDummy dummy
 
 scoreboard players set ticksPerWarmthCheck winterDummy 20
+scoreboard players set ticksPerCraftingCheck winterDummy 10
 scoreboard objectives add winterDeaths deathCount
 
 scoreboard objectives add CraftFurHelmet trigger
@@ -54,3 +55,5 @@ team modify wolfGuide prefix {"text":"<Wolf> ","bold":false,"color":"#1e1e38"}
 
 team modify ravenGuide color dark_purple
 team modify ravenGuide prefix {"text":"<Raven> ","bold":true,"color":"#200670"}
+
+scoreboard objectives add CraftingTimer dummy
