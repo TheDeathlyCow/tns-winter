@@ -8,3 +8,4 @@ execute if entity @s[nbt={Item:{id:"minecraft:rabbit_hide",tag:{Fur:1b},Count:7b
 playsound minecraft:entity.villager.work_fletcher master @a[distance=..15] ~ ~ ~
 tag @s remove CraftingItemMarked
 setblock ~ ~ ~ minecraft:cauldron[level=0]
+playsound minecraft:entity.villager.work_leatherworker master @a[distance=..15] ~ ~ ~

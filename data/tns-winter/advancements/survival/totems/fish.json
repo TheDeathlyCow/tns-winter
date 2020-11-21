@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Lucky Fish",
+            "color": "#FA8072"
+        },
+        "description": {
+            "text": "Acquire the Totem of the Fish",
+            "color": "#20856a"
+        },
+        "icon": {
+            "item": "minecraft:salmon"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:survival/totems/root"
+}

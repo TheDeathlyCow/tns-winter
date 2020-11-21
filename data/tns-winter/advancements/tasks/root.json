@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Gaining Favour",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Tasks to be completed for favour (all are repeatable)",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "on_log_in": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "tns-winter:root"
+}

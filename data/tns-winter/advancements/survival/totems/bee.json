@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Builder Bee",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Acquire the Totem of the Bee",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Bee\"}'},SkullOwner:{Id:[I;2132597972,1111968683,-1896401702,1148014020],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQyMGM5YzQzZTA5NTg4MGRjZDJlMjgxYzgxZjQ3YjE2M2I0NzhmNThhNTg0YmI2MWY5M2U2ZTEwYTE1NWYzMSJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:survival/totems/root"
+}

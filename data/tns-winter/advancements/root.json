@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Lost in the North",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Welcome to the Totally Not Suspicious 2020 Winter Event! Check #player-events for more info!",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/blue_ice.png"
+    },
+    "criteria": {
+        "on_log_in": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
