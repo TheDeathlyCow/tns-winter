@@ -26,7 +26,7 @@ scoreboard players set @s winterSleep 0
 # check fur armour
 execute if score warmedPlayers winterBoolean matches 0 if entity @s[tag=inColdBiome] run function tns-winter:hypothermia/check_warmth_items
 
-execute if score @s warmth matches ..-1921 run scoreboard players set @s warmth -1921 
+execute if score @s warmth matches ..-2001 run scoreboard players set @s warmth -2000
 execute if score @s warmth matches 0.. run scoreboard players set @s warmth 0
 
 scoreboard players set warmedPlayers winterBoolean 0

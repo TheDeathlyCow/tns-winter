@@ -7,3 +7,6 @@ playsound minecraft:entity.bee.loop master @s[tag=BeeTotem] ~ ~ ~ 1 1 1
 
 tellraw @s[tag=FishTotem] {"text":"Your totem is ready!","color":"red"}
 playsound minecraft:entity.fishing_bobber.splash master @s[tag=FishTotem] ~ ~ ~ 1 1 1
+
+tellraw @s[tag=FoxTotem] {"text":"Your totem is ready!","color":"#e8986f"}
+playsound minecraft:entity.fox.eat master @s[tag=FoxTotem] ~ ~ ~ 1 1 1

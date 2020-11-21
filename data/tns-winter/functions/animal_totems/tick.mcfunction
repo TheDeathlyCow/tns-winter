@@ -15,4 +15,7 @@ scoreboard players set @a[scores={FollowBee=1}] FollowBee 0
 execute as @a[scores={FollowFish=1}] at @s run function tns-winter:animal_totems/fish/follow
 scoreboard players set @a[scores={FollowFish=1}] FollowFish 0
 
+execute as @a[scores={FollowFox=1}] at @s run function tns-winter:animal_totems/fox/follow
+scoreboard players set @a[scores={FollowFox=1}] FollowFox 0
+
 execute as @a if score @s TotemCooldown matches 12000.. run scoreboard players enable @s AnimalTotem

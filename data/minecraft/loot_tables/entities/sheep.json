@@ -40,6 +40,28 @@
                     "name": "minecraft:mutton"
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "nether_star",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AnimalSoul:1b,display:{Name:'{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"Animal Soul\"}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.05
+                }
+            ]
         }
     ]
 }

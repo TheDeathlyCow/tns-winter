@@ -4,4 +4,6 @@
 
 scoreboard players add @s warmth 12
 
+# execute if score @s[tag=inTaiga] warmth matches -240.. run effect give @s minecraft:regeneration 3 0
+
 scoreboard players set warmedPlayers winterBoolean 1

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Shelter From the Cold"
+        },
+        "description": {
+            "text": "Build a campfire"
+        },
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "allitems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:campfire",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:survival/root"
+}

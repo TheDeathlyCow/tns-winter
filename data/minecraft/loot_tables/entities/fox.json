@@ -181,7 +181,7 @@
                             "tag": "{AnimalSoul:1b,display:{Name:'{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"Animal Soul\"}'}}"
                         }
                     ],
-                    "name": "dragon_breath"
+                    "name": "minecraft:nether_star"
                 }
             ]
         }
