@@ -57,3 +57,4 @@ team modify ravenGuide color dark_purple
 team modify ravenGuide prefix {"text":"<Raven> ","bold":true,"color":"#200670"}
 
 scoreboard objectives add CraftingTimer dummy
+scoreboard objectives add winterSleep dummy

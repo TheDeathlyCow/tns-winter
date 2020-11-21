@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#i#",
+        "iNi",
+        "#i#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:lodestone",
+        "count": 1
+    }
+}

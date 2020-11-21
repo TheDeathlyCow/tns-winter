@@ -9,7 +9,7 @@
             "color": "aqua"
         },
         "icon": {
-            "item": "minecraft:snow_block"
+            "item": "minecraft:snowball"
         },
         "frame": "task",
         "show_toast": true,

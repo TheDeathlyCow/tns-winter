@@ -13,3 +13,5 @@ playsound minecraft:entity.fishing_bobber.splash master @s ~ ~ ~ 1 1 1
 scoreboard players set @s TotemCooldown 12001
 
 team join fishGuide @s
+advancement grant @s only tns-winter:survival/totems/root
+advancement grant @s only tns-winter:survival/totems/fish

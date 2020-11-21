@@ -57,10 +57,91 @@
                         }
                     ]
                 }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                        "flags": {
+                            "is_on_fire": false
+                        }
+                    },
+                    "entity": "this"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rabbit_hide",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Fur:1b,display:{Name:'{\"italic\":false,\"text\":\"Fur\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0.0,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cooked_porkchop",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"italic\":false,\"text\":\"Cooked Fox\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0.0,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                        "flags": {
+                            "is_on_fire": true
+                        }
+                    },
+                    "entity": "this"
+                }
             ]
         },
         {
             "rolls": 2,
+            "bonus_rolls": -1,
             "entries": [
                 {
                     "type": "item",
