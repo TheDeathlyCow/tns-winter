@@ -1,0 +1,2 @@
+kill @e[type=armor_stand,tag=welcomeTutorial]
+execute align xz run summon armor_stand ~0.5 ~2 ~0.5 {CustomNameVisible:1b,NoGravity:1b,Marker:1b,Invisible:1b,Tags:["tutorialMarker","welcomeTutorial"],CustomName:'[{"text":"!!","color":"light_purple","bold":true},{"text":" Welcome to the TNS 2020 Winter Event! ","color":"aqua","bold":false},{"text":"!!","bold":true,"color":"light_purple"}]'}

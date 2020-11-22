@@ -1,0 +1,2 @@
+kill @e[type=armor_stand,tag=fishingTutorial]
+execute align xz run summon armor_stand ~0.5 ~2 ~0.5 {CustomNameVisible:1b,NoGravity:1b,Marker:1b,Invisible:1b,Tags:["tutorialMarker","fishingTutorial"],CustomName:'[{"text":"!!","color":"yellow","bold":true},{"text":" You can get special rewards from fishing ","color":"yellow","bold":false},{"text":"!!","bold":true}]'}

@@ -60,3 +60,4 @@ scoreboard objectives add CraftingTimer dummy
 scoreboard objectives add winterSleep dummy
 scoreboard objectives add wntrPotionID dummy
 scoreboard objectives add wolfPackTimer dummy
+scoreboard objectives add WinterHelp trigger

@@ -28,7 +28,3 @@ scoreboard players add @e[tag=summonedWolf] wolfPackTimer 1
 execute as @e[tag=summonedWolf] at @s if score @s wolfPackTimer matches 2400.. run function tns-winter:animal_totems/wolf/dissummon_wolf_pack
 
 execute as @a if score @s TotemCooldown matches 12000.. run scoreboard players enable @s AnimalTotem
-
-# speed up the sun during the day
-execute store result score daylightCycleToggled winterBoolean run gamerule doDaylightCycle
-execute if score daylightCycleToggled winterBoolean matches 1 run function tns-winter:speed_day
