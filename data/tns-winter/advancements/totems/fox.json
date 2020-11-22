@@ -25,5 +25,5 @@
     "rewards": {
         "experience": 10
     },
-    "parent": "tns-winter:survival/totems/root"
+    "parent": "tns-winter:totems/root"
 }

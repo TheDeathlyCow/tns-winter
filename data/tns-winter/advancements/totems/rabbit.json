@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Agile Rabbit",
+            "color": "#8f3c0b"
+        },
+        "description": {
+            "text": "Acquire the Totem of the Rabbit",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:rabbit_foot",
+            "frame": "task",
+            "show_toast": true,
+            "announce_to_chat": true,
+            "hidden": false
+        }
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:totems/root"
+}

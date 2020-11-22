@@ -17,6 +17,11 @@
         "hidden": false,
         "background": "minecraft:textures/block/blue_ice.png"
     },
+    "rewards": {
+        "loot": [
+            "tns-winter:advancement_rewards/login"
+        ]
+    },
     "criteria": {
         "on_log_in": {
             "trigger": "minecraft:tick"

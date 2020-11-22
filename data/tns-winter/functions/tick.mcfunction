@@ -17,4 +17,5 @@ function tns-winter:animal_totems/tick
 execute as @a at @s if block ~ ~ ~ minecraft:nether_portal run setblock ~ ~ ~ minecraft:air destroy
 execute as @a at @s if block ~ ~ ~ minecraft:end_portal run setblock ~ ~ ~ minecraft:air destroy
 
-give @a[advancements={tns-winter:root=false}] minecraft:diamond 1
+# give @a[advancements={tns-winter:root=false}] minecraft:diamond 1
+# give @a[advancements={tns-winter:root=false}] written_book{title:"Survival Guide",author:"TheDeathlyCow",generation:0,pages:['[{"text":"Welcome to the TNS 2020 Winter Event!","color":"dark_purple"},{"text":"\\n\\nTable of Contents","color":"light_purple"},{"text":"\\n\\nHypothermia","color":"dark_aqua","clickEvent":{"action":"change_page","value":"2"}},{"text":"\\nHunting and Fishing","color":"dark_aqua","clickEvent":{"action":"change_page","value":"3"}},{"text":"\\nCrafting and Brewing","color":"dark_aqua","clickEvent":{"action":"change_page","value":"4"}},{"text":"\\nSurvival Changes","color":"dark_aqua","clickEvent":{"action":"change_page","value":"5"}},{"text":"\\nFavour and Tasks","color":"dark_aqua","clickEvent":{"action":"change_page","value":"6"}},{"text":"\\nAnimal Totems","color":"dark_aqua","clickEvent":{"action":"change_page","value":"7"}}]','{"text":"Hypothermia","color":"dark_gray"}']} 1

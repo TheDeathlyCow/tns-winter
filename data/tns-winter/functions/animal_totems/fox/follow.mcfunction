@@ -8,7 +8,7 @@ tag @s remove RabbitTotem
 tag @s remove WolfTotem
 tag @s remove RavenTotem
 
-tellraw @s {"text":"Use /trigger AnimalTotem to give yourself invisibility, speed, and temporary imunnity to hypothermia (Cooldown of 10 minutes)!","color":"#e8986f"}
+tellraw @s {"text":"Use /trigger AnimalTotem to give yourself invisibility, speed, and temporary immunity to hypothermia (Cooldown of 10 minutes)!","color":"#e8986f"}
 playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1
 scoreboard players set @s TotemCooldown 12001
 
