@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Home is Where the Soul is"
+        },
+        "description": {
+            "text": "Use an animal soul to craft a Lodestone"
+        },
+        "icon": {
+            "item": "minecraft:lodestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "allitems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lodestone",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:survival/collect_soul"
+}
