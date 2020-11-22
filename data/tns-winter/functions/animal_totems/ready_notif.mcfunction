@@ -10,3 +10,9 @@ playsound minecraft:entity.fishing_bobber.splash master @s[tag=FishTotem] ~ ~ ~ 
 
 tellraw @s[tag=FoxTotem] {"text":"Your totem is ready!","color":"#e8986f"}
 playsound minecraft:entity.fox.eat master @s[tag=FoxTotem] ~ ~ ~ 1 1 1
+
+tellraw @s[tag=RabbitTotem] {"text":"Your totem is ready!","color":"#8f3c0b"}
+playsound minecraft:entity.rabbit.attack master @s[tag=RabbitTotem] ~ ~ ~ 1 1 1
+
+tellraw @s[tag=WolfTotem] {"text":"Your totem is ready!","color":"gray"}
+playsound minecraft:entity.wolf.howl master @s[tag=WolfTotem] ~ ~ ~ 1 1 1

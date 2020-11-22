@@ -13,5 +13,5 @@ playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1
 scoreboard players set @s TotemCooldown 12001
 
 team join foxGuide @s
-advancement grant @s only tns-winter:survival/totems/root
-advancement grant @s only tns-winter:survival/totems/fox
+advancement grant @s only tns-winter:totems/root
+advancement grant @s only tns-winter:totems/fox

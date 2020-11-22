@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "A Fursuit"
+        },
+        "description": {
+            "text": "Craft fur armour in a cauldron"
+        },
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{display:{color:6043908}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:survival/craft_cauldron"
+}

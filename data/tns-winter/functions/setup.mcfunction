@@ -59,3 +59,4 @@ team modify ravenGuide prefix {"text":"<Raven> ","bold":true,"color":"#200670"}
 scoreboard objectives add CraftingTimer dummy
 scoreboard objectives add winterSleep dummy
 scoreboard objectives add wntrPotionID dummy
+scoreboard objectives add wolfPackTimer dummy

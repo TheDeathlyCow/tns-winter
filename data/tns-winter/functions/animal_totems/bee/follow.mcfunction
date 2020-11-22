@@ -13,5 +13,5 @@ playsound minecraft:entity.bee.loop_aggressive master @s ~ ~ ~ 1 1 1
 scoreboard players set @s TotemCooldown 12001
 
 team join beeGuide @s
-advancement grant @s only tns-winter:survival/totems/root
-advancement grant @s only tns-winter:survival/totems/bee
+advancement grant @s only tns-winter:totems/root
+advancement grant @s only tns-winter:totems/bee

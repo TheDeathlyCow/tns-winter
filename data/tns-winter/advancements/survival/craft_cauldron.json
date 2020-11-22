@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "A Crafting Crucible"
+        },
+        "description": {
+            "text": "Craft a cauldron"
+        },
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "allitems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cauldron",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tns-winter:survival/root"
+}

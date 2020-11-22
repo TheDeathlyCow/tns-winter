@@ -1,17 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "The Spirits Path",
-            "color": "dark_purple"
+            "text": "Herbal Medicine"
         },
         "description": {
-            "text": "Acquire a Spirit Totem",
-            "color": "light_purple"
+            "text": "Brew a potion in a cauldron"
         },
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:regeneration\"}"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -24,5 +23,5 @@
     "rewards": {
         "experience": 10
     },
-    "parent": "tns-winter:survival/root"
+    "parent": "tns-winter:survival/craft_cauldron"
 }

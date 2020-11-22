@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "The Spirits Path",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Acquire a Spirit Totem",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:root"
+}
