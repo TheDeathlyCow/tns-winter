@@ -5,9 +5,11 @@ execute as @a[scores={AnimalTotem=1}] at @s run function tns-winter:animal_totem
 scoreboard players set @a[scores={AnimalTotem=1}] AnimalTotem 0
 
 scoreboard players add @a TotemCooldown 1
-execute as @a if score @s TotemCooldown matches 13000.. run scoreboard players set @s TotemCooldown 13000
+execute as @a if score @s TotemCooldown matches 37000.. run scoreboard players set @s TotemCooldown 37000
 
-execute as @a[scores={TotemCooldown=12000}] run function tns-winter:animal_totems/ready_notif
+execute as @a[scores={TotemCooldown=12000}] unless entity @s[tag=BeeTotem] run function tns-winter:animal_totems/ready_notif
+execute as @a[scores={TotemCooldown=36000}] if entity @s[tag=BeeTotem] run function tns-winter:animal_totems/ready_notif
+
 
 execute as @a[scores={FollowBee=1}] at @s run function tns-winter:animal_totems/bee/follow
 scoreboard players set @a[scores={FollowBee=1}] FollowBee 0
@@ -27,4 +29,5 @@ scoreboard players set @a[scores={FollowWolf=1}] FollowWolf 0
 scoreboard players add @e[tag=summonedWolf] wolfPackTimer 1
 execute as @e[tag=summonedWolf] at @s if score @s wolfPackTimer matches 2400.. run function tns-winter:animal_totems/wolf/dissummon_wolf_pack
 
-execute as @a if score @s TotemCooldown matches 12000.. run scoreboard players enable @s AnimalTotem
+execute as @a if score @s TotemCooldown matches 12000.. unless entity @s[tag=BeeTotem] run scoreboard players enable @s AnimalTotem
+execute as @a if score @s TotemCooldown matches 36000.. if entity @s[tag=BeeTotem] run scoreboard players enable @s AnimalTotem
