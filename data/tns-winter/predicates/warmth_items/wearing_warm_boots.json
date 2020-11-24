@@ -1,0 +1,28 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "feet": {
+                        "item": "minecraft:leather_boots",
+                        "nbt": "{FurArmor:1b}"
+                    }
+                }
+            },
+            "entity": "this"
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "feet": {
+                        "item": "minecraft:netherite_boots"
+                    }
+                }
+            },
+            "entity": "this"
+        }
+    ]
+}
