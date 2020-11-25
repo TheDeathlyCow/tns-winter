@@ -25,6 +25,8 @@ execute if score warmedPlayers winterBoolean matches 1 unless score @s winterSle
 scoreboard players set @s winterSleep 0
 # check fur armour
 execute if score warmedPlayers winterBoolean matches 0 if entity @s[tag=inColdBiome] run function tns-winter:hypothermia/check_warmth_items
+execute if predicate tns-winter:holding_blue_ice run scoreboard players remove @s warmth 24
+
 
 execute if score @s warmth matches ..-2001 run scoreboard players set @s warmth -2000
 execute if score @s warmth matches 0.. run scoreboard players set @s warmth 0

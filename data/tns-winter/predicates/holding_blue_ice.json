@@ -1,0 +1,27 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "item": "minecraft:blue_ice"
+                    }
+                }
+            },
+            "entity":"this"
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "item": "minecraft:blue_ice"
+                    }
+                }
+            },
+            "entity":"this"
+        }
+    ]
+}

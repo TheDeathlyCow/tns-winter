@@ -26,8 +26,11 @@ scoreboard objectives add FollowFox trigger
 scoreboard objectives add FollowRabbit trigger
 scoreboard objectives add FollowWolf trigger
 scoreboard objectives add FollowRaven trigger
+scoreboard objectives add FollowBear trigger
+
 
 scoreboard objectives add AnimalTotem trigger
+scoreboard objectives add RavenTotem trigger
 
 scoreboard objectives add TotemCooldown dummy
 scoreboard players set MaxInt winterDummy 2147483647
