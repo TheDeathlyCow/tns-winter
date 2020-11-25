@@ -3,7 +3,7 @@
 # CALLED BY: tns-winter:hypothermia/detect_biome
 title @s times 10 40 20
 execute unless entity @s[tag=inTaiga] unless entity @s[tag=inOcean] run title @s title {"text":"The Lush Taiga","color":"dark_green","bold":"true"}
-execute unless entity @s[tag=inTaiga] unless entity @s[tag=inOcean] run title @s subtitle {"text":"❄ Level 1 ❄","color":"green","bold":"false"}
+execute unless entity @s[tag=inTaiga] unless entity @s[tag=inOcean] run title @s subtitle {"text":"❄","color":"green","bold":"false"}
 tag @s add inTaiga
 tag @s remove inColdBiome
 tag @s remove inMountains
