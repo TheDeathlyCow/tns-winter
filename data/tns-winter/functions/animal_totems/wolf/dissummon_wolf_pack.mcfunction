@@ -6,3 +6,4 @@ data merge entity @s[type=wolf] {Owner:[I;0,0,0,0]}
 teleport @s[type=wolf] ~ -500 ~
 tag @s remove summonedWolf
 playsound minecraft:entity.wolf.howl master @s ~ ~ ~ 1 1 1
+scoreboard players set @s wolfPackTimer 0

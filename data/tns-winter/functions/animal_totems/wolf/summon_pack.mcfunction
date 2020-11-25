@@ -1,6 +1,8 @@
 # as @a[scores={AnimalTotem=1}] at @s
 #
 # called by tns-winter:animal_totems/wolf/use
+
+# say summon pack
 tag @s add summonedWolf
 summon minecraft:wolf ~ ~ ~ {CustomName:'{"text":"Wolf Spirit","color":"aqua"}',Tags:["summonedWolf"],DeathLootTable:"tns-winter:entities/wolf_spirit"}
 summon minecraft:wolf ~ ~ ~ {CustomName:'{"text":"Wolf Spirit","color":"aqua"}',Tags:["summonedWolf"],DeathLootTable:"tns-winter:entities/wolf_spirit"}
