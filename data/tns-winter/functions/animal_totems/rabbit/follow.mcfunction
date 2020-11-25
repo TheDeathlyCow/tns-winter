@@ -8,7 +8,7 @@ tag @s add RabbitTotem
 tag @s remove WolfTotem
 tag @s remove RavenTotem
 
-tellraw @s {"text":"Use /trigger AnimalTotem to give yourself jump boost, and the ability to see all nearby entities (Cooldown of 10 minutes)!","color":"#8f3c0b"}
+tellraw @s {"text":"Use /trigger AnimalTotem to give yourself jump boost, the ability to see all nearby entities, and to enchant your held item (Cooldown of 10 minutes)!","color":"#8f3c0b"}
 playsound minecraft:entity.rabbit.attack master @s ~ ~ ~ 1 1 1
 scoreboard players set @s TotemCooldown 12001
 

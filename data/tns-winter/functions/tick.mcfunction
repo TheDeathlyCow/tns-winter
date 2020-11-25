@@ -7,6 +7,11 @@ execute store result score ticksUntilWarmthCheck winterDummy run time query game
 scoreboard players operation ticksUntilWarmthCheck winterDummy %= ticksPerWarmthCheck winterDummy 
 execute if score hypothermiaEnabled winterBoolean matches 1 if score ticksUntilWarmthCheck winterDummy matches 0 as @a at @s unless entity @s[tag=immuneToHypothermia] unless predicate tns-winter:is_invisible run function tns-winter:hypothermia/update_warmth
 
+execute store result score ticksUntilSpawnCheck winterDummy run time query gametime
+scoreboard players operation ticksUntilSpawnCheck winterDummy %= ticksPerSpawnCheck winterDummy 
+execute if score ticksUntilSpawnCheck winterDummy matches 0 as @e[type=armor_stand,tag=spawnerStand] at @s run function tns-winter:spawners/check_spawners
+
+
 execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s warmth 0
 execute as @a if score @s winterDeaths matches 1.. run scoreboard players set @s winterDeaths 0
 

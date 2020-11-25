@@ -1,0 +1,32 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "location": {
+                    "biome": "minecraft:snowy_tundra"
+                }
+            },
+            "entity":"this"
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "location": {
+                    "biome": "minecraft:snowy_mountains"
+                }
+            },
+            "entity":"this"
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "location": {
+                    "biome": "minecraft:snowy_taiga"
+                }
+            },
+            "entity":"this"
+        }
+    ]
+}

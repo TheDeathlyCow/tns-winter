@@ -1,47 +1,51 @@
 {
-  "type": "minecraft:fishing",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "entries": [
+    "type": "minecraft:fishing",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.0,
-                "max": 0.25
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:fishing_rod"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:book"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ancient_debris"
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.0,
+                                "max": 0.25
+                            }
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ],
+                    "name": "minecraft:fishing_rod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ],
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ancient_debris"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

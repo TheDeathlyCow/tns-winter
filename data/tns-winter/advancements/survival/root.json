@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:campfire"
+            "item": "minecraft:spruce_log"
         },
         "frame": "task",
         "show_toast": false,

@@ -12,6 +12,7 @@ scoreboard objectives add winterDummy dummy
 
 scoreboard players set ticksPerWarmthCheck winterDummy 20
 scoreboard players set ticksPerCraftingCheck winterDummy 10
+scoreboard players set ticksPerSpawnCheck winterDummy 40
 scoreboard objectives add winterDeaths deathCount
 
 # scoreboard objectives add CraftFurHelmet trigger
@@ -61,3 +62,5 @@ scoreboard objectives add winterSleep dummy
 scoreboard objectives add wntrPotionID dummy
 scoreboard objectives add wolfPackTimer dummy
 scoreboard objectives add WinterHelp trigger
+scoreboard objectives add SpawnerTimer dummy
+scoreboard objectives add NearbyAnimals dummy

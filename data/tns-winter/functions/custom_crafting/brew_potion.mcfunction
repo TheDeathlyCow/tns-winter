@@ -10,10 +10,10 @@
 # 4: lingering long poison
 # say brew potion
 scoreboard players set @s wntrPotionID 0
-execute if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:azure_bluet",Count:6b}}] run scoreboard players set @s wntrPotionID 4
-execute if score @s wntrPotionID matches 0 if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:cornflower",Count:6b}}] run scoreboard players set @s wntrPotionID 2
-execute if score @s wntrPotionID matches 0 if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:poppy",Count:6b}}] run scoreboard players set @s wntrPotionID 3
-execute if score @s wntrPotionID matches 0 if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:sweet_berries",Count:6b}}] run scoreboard players set @s wntrPotionID 1
+execute if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:azure_bluet",Count:4b}}] run scoreboard players set @s wntrPotionID 4
+execute if score @s wntrPotionID matches 0 if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:cornflower",Count:4b}}] run scoreboard players set @s wntrPotionID 2
+execute if score @s wntrPotionID matches 0 if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:oxeye_daisy",Count:4b}}] run scoreboard players set @s wntrPotionID 3
+execute if score @s wntrPotionID matches 0 if entity @e[type=item,distance=..1,tag=WinterPotionIngredient,nbt={Item:{id:"minecraft:sweet_berries",Count:4b}}] run scoreboard players set @s wntrPotionID 1
 
 kill @e[type=item,distance=..1,tag=WinterPotionIngredient]
 execute if score @s wntrPotionID matches 0 run data merge entity @s {Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"italic":false,"text":"Mysterious Potion"}'},HideFlags:32,CustomPotionEffects:[{Id:17b,Amplifier:9b,Duration:600}],CustomPotionColor:3434834}}}

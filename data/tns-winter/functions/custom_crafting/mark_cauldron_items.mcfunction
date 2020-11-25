@@ -5,9 +5,8 @@ tag @s add CraftingItemMarked
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:water"},Count:1b}}] run tag @s add WinterPotion
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:azure_bluet"}}] run tag @s add WinterPotionIngredient
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:cornflower"}}] run tag @s add WinterPotionIngredient
-execute if entity @s[type=item,nbt={Item:{id:"minecraft:poppy"}}] run tag @s add WinterPotionIngredient
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:oxeye_daisy"}}] run tag @s add WinterPotionIngredient
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:sweet_berries"}}] run tag @s add WinterPotionIngredient
-execute if entity @e[type=item,nbt={Item:{id:"minecraft:snowball"}}] run tag @s add WinterPotionIngredient
 tag @s[tag=WinterPotionIngredient] remove CraftingItemMarked
 
 execute if entity @s[tag=CraftingItemMarked] run particle minecraft:crit ~ ~ ~ 0.3 0.3 0.3 0.05 15 
