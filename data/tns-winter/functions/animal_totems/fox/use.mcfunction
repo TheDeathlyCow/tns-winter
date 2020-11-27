@@ -2,7 +2,7 @@
 #
 # called by tns-winter:animal_totems/use_totem
 
-effect give @s minecraft:speed 62 1
+effect give @s minecraft:speed 62 2
 effect give @s minecraft:invisibility 32 1
 
 playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1
