@@ -14,6 +14,9 @@ scoreboard players set ticksPerWarmthCheck winterDummy 20
 scoreboard players set ticksPerCraftingCheck winterDummy 10
 scoreboard players set ticksPerSpawnCheck winterDummy 40
 scoreboard objectives add winterDeaths deathCount
+scoreboard players set ticksPerBuffCheck winterDummy 100
+scoreboard players set switchBoolean winterBoolean 2
+
 
 # scoreboard objectives add CraftFurHelmet trigger
 # scoreboard objectives add CraftFurChest trigger
@@ -67,3 +70,5 @@ scoreboard objectives add wolfPackTimer dummy
 scoreboard objectives add WinterHelp trigger
 scoreboard objectives add SpawnerTimer dummy
 scoreboard objectives add NearbyAnimals dummy
+scoreboard objectives add TimeSinceHit dummy
+scoreboard players set @a TimeSinceHit 0
