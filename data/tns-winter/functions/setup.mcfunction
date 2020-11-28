@@ -72,3 +72,7 @@ scoreboard objectives add SpawnerTimer dummy
 scoreboard objectives add NearbyAnimals dummy
 scoreboard objectives add TimeSinceHit dummy
 scoreboard players set @a TimeSinceHit 0
+
+
+scoreboard objectives add Favour dummy {"text":"Favour","color":"gold"}
+scoreboard objectives add GetFavour trigger

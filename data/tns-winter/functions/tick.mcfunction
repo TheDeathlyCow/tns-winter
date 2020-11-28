@@ -3,6 +3,11 @@ execute as @a at @s run function tns-winter:hypothermia/detect_biome
 
 execute as @a at @s run function tns-winter:hypothermia/update_warmth_bar
 
+scoreboard players enable @a GetFavour
+execute as @a[scores={GetFavour=1}] run tellraw @s ["",{"text":"You have ","color":"gold"},{"score":{"name":"@s","objective":"Favour"}},{"color":"gold","text":" Favour"}]
+execute at @a[scores={GetFavour=1}] run playsound minecraft:entity.experience_orb.pickup master @p ~ ~ ~
+scoreboard players set @a GetFavour 0
+
 execute store result score ticksUntilWarmthCheck winterDummy run time query gametime
 scoreboard players operation ticksUntilWarmthCheck winterDummy %= ticksPerWarmthCheck winterDummy 
 execute if score hypothermiaEnabled winterBoolean matches 1 if score ticksUntilWarmthCheck winterDummy matches 0 as @a at @s unless entity @s[tag=immuneToHypothermia] unless predicate tns-winter:is_invisible run function tns-winter:hypothermia/update_warmth
