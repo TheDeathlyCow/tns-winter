@@ -16,7 +16,7 @@ scoreboard players set ticksPerSpawnCheck winterDummy 40
 scoreboard objectives add winterDeaths deathCount
 scoreboard players set ticksPerBuffCheck winterDummy 100
 scoreboard players set switchBoolean winterBoolean 2
-
+scoreboard players set ticksPerIceAttack winterDummy 100
 
 # scoreboard objectives add CraftFurHelmet trigger
 # scoreboard objectives add CraftFurChest trigger
