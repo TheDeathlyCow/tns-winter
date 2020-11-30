@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "B",
+        "F"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:flint"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "item": "minecraft:arrow",
+        "count": 4
+    }
+}

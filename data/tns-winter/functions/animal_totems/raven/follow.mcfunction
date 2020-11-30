@@ -22,4 +22,5 @@ scoreboard players set @s TotemCooldown 12001
 
 team join ravenGuide @s
 advancement grant @s only tns-winter:totems/root
+advancement grant @s only tns-winter:totems/glacier_root
 advancement grant @s only tns-winter:totems/raven

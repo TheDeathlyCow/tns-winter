@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Totems of the Frozen Forest"
+        },
+        "description": {
+            "text": "Totems that can be found in the Frozen Forest"
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getRoot": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tns-winter:totems/root"
+}

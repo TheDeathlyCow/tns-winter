@@ -7,3 +7,4 @@ execute if entity @a[tag=FightingBoss] unless entity @e[type=illusioner,tag=chil
 execute as @e[type=falling_block,tag=iceologerAttack] at @s unless block ~ ~-1 ~ minecraft:air run function tns-winter:boss/iceologer/kill_blocks
 execute at @e[type=falling_block,tag=iceologerAttack] as @a[dy=-0.1] unless score @s TimeSinceHit matches ..10 run function tns-winter:boss/iceologer/hit_player
 
+execute as @e[type=evoker,tag=frostSpirit] at @s run function tns-winter:boss/frost_spirit/tick

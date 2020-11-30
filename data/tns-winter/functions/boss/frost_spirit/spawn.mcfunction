@@ -1,0 +1,1 @@
+summon evoker ~ ~ ~ {PersistenceRequired:1b,Health:40f,Tags:["frostSpirit"],CustomName:'{"text":"Frost Spirit","color":"aqua"}',HandItems:[{id:"minecraft:trident",Count:1b,tag:{display:{Name:'{"text":"Frost Staff","italic":false}'},Enchantments:[{id:"minecraft:channeling",lvl:1s}]}},{}],Attributes:[{Name:generic.max_health,Base:40}]}

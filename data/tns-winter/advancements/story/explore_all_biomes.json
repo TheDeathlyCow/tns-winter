@@ -1,0 +1,70 @@
+{
+    "parent": "tns-winter:story/enter_taiga",
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots",
+            "nbt": "{display:{color:6043908}}"
+        },
+        "title": {
+            "text": "Getting Around"
+        },
+        "description": {
+            "translate": "Visit every biome in the map"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "experience": 500
+    },
+    "criteria": {
+        "tns-winter:snowy_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:snowy_taiga"
+                }
+            }
+        },
+        "tns-winter:snowy_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:snowy_mountains"
+                }
+            }
+        },
+        "tns-winter:snowy_tundra": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:snowy_tundra"
+                }
+            }
+        },
+        "tns-winter:taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:taiga"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tns-winter:snowy_taiga"
+        ],
+        [
+            "tns-winter:snowy_mountains"
+        ],
+        [
+            "tns-winter:snowy_tundra"
+        ],
+        [
+            "tns-winter:taiga"
+        ]
+    ]
+}

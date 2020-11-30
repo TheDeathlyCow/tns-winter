@@ -73,6 +73,7 @@ scoreboard objectives add NearbyAnimals dummy
 scoreboard objectives add TimeSinceHit dummy
 scoreboard players set @a TimeSinceHit 0
 # scoreboard objectives add WinterHealth dummy
+scoreboard objectives add HeatAbsorbed dummy
 
 scoreboard objectives add Favour dummy {"text":"Favour","color":"gold"}
 scoreboard objectives add GetFavour trigger

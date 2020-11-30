@@ -14,4 +14,5 @@ scoreboard players set @s TotemCooldown 12001
 
 team join foxGuide @s
 advancement grant @s only tns-winter:totems/root
+advancement grant @s only tns-winter:totems/frozen_forest_root
 advancement grant @s only tns-winter:totems/fox

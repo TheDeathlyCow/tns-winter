@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Totems of the Lush Taiga"
+        },
+        "description": {
+            "text": "Totems that can be found in the Lush Taiga"
+        },
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getRoot": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tns-winter:totems/root"
+}

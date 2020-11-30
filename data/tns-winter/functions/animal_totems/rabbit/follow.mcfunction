@@ -14,4 +14,5 @@ scoreboard players set @s TotemCooldown 12001
 
 team join rabbitGuide @s
 advancement grant @s only tns-winter:totems/root
+advancement grant @s only tns-winter:totems/lush_taiga_root
 advancement grant @s only tns-winter:totems/rabbit
