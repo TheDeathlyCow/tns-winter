@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Socially Distanced Potions"
+        },
+        "description": {
+            "text": "Use the fletching table to add a potion effect to some arrows"
+        },
+        "icon": {
+            "item": "minecraft:tipped_arrow",
+            "nbt": "{Potion:'minecraft:poison'}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft_arrow": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:survival/craft_fletching_table"
+}

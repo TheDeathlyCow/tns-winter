@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Finally has a Purpose"
+        },
+        "description": {
+            "text": "Craft a Fletching Table"
+        },
+        "icon": {
+            "item": "minecraft:fletching_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "allitems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fletching_table",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tns-winter:survival/root"
+}

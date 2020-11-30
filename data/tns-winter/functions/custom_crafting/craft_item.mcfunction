@@ -3,4 +3,4 @@
 # called by: tns-winter:custom_crafting/tick
 # say craft item
 execute if block ~ ~ ~ minecraft:cauldron[level=3] run function tns-winter:custom_crafting/craft_cauldron
-execute if block ~ ~-1 ~ minecraft:fletching_table if block ~ ~ ~ minecraft:air run function tns-winter:custom_crafting/craft_fletching
+execute if block ~ ~-1 ~ minecraft:fletching_table unless block ~ ~ ~ minecraft:cauldron[level=3] run function tns-winter:custom_crafting/craft_fletching
