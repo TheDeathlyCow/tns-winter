@@ -16,7 +16,7 @@ scoreboard players set ticksPerSpawnCheck winterDummy 40
 scoreboard objectives add winterDeaths deathCount
 scoreboard players set ticksPerBuffCheck winterDummy 100
 scoreboard players set switchBoolean winterBoolean 2
-scoreboard players set ticksPerIceAttack winterDummy 100
+scoreboard players set ticksPerIceAttack winterDummy 200
 
 # scoreboard objectives add CraftFurHelmet trigger
 # scoreboard objectives add CraftFurChest trigger
@@ -72,7 +72,7 @@ scoreboard objectives add SpawnerTimer dummy
 scoreboard objectives add NearbyAnimals dummy
 scoreboard objectives add TimeSinceHit dummy
 scoreboard players set @a TimeSinceHit 0
-
+# scoreboard objectives add WinterHealth dummy
 
 scoreboard objectives add Favour dummy {"text":"Favour","color":"gold"}
 scoreboard objectives add GetFavour trigger

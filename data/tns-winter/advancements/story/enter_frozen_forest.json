@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "title": {
+            "text":"Through the Wardrobe",
+            "color": "blue"
+        },
+        "description": {
+            "text":"Enter the Frozen Forest",
+            "color": "aqua"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "tns-winter:story/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:snowy_taiga"
+                }
+            }
+        }
+    }
+}
