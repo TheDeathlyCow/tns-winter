@@ -2,9 +2,5 @@
 # at the item
 # called by: tns-winter:custom_crafting/tick
 # say craft item
-execute if entity @s[nbt={Item:{id:"minecraft:rabbit_hide",tag:{Fur:1b}}}] run function tns-winter:custom_crafting/craft_fur_armour
-execute if entity @s[nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:water"},Count:1b}}] run function tns-winter:custom_crafting/brew_potion
-
-tag @s remove CraftingItemMarked
-setblock ~ ~ ~ minecraft:cauldron[level=0]
-playsound minecraft:entity.villager.work_leatherworker master @a[distance=..15] ~ ~ ~
+execute if block ~ ~ ~ minecraft:cauldron[level=3] run function tns-winter:custom_crafting/craft_cauldron
+execute if block ~ ~-1 ~ minecraft:fletching_table if block ~ ~ ~ minecraft:air run function tns-winter:custom_crafting/craft_fletching
