@@ -17,7 +17,7 @@ scoreboard objectives add winterDeaths deathCount
 scoreboard players set ticksPerBuffCheck winterDummy 100
 scoreboard players set switchBoolean winterBoolean 2
 scoreboard players set ticksPerIceAttack winterDummy 200
-scoreboard players set junkPerFavourGain winterDummy 5
+scoreboard players set FavourDeathPenalty winterDummy 20
 
 # scoreboard objectives add CraftFurHelmet trigger
 # scoreboard objectives add CraftFurChest trigger
@@ -76,6 +76,7 @@ scoreboard players set @a TimeSinceHit 0
 # scoreboard objectives add WinterHealth dummy
 scoreboard objectives add HeatAbsorbed dummy
 scoreboard objectives add JunkFished dummy
+scoreboard objectives add FavourBackup dummy
 
 scoreboard objectives add Favour dummy {"text":"Favour","color":"gold"}
 scoreboard objectives add GetFavour trigger
