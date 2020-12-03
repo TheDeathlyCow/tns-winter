@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Avid Reader"
+            "text": "Chewies!"
         },
         "description": {
-            "text": "Bring 8 booshelves to the Rabbit Totem (+30 Favour)*"
+            "text": "Bring 32 bones to the Wolf Totem (+20 Favour)*"
         },
         "icon": {
-            "item": "minecraft:bookshelf"
+            "item": "minecraft:bone"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,5 +22,5 @@
     "rewards": {
         "experience": 10
     },
-    "parent": "tns-winter:totems/rabbit"
+    "parent": "tns-winter:totems/wolf"
 }

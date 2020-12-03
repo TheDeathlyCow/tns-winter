@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Avid Reader"
+            "text": "Enchanter's Rock"
         },
         "description": {
-            "text": "Bring 8 booshelves to the Rabbit Totem (+30 Favour)*"
+            "text": "Bring 32 lapis lazuli to the Rabbit Totem (+15 Favour)*"
         },
         "icon": {
-            "item": "minecraft:bookshelf"
+            "item": "minecraft:lapis_lazuli"
         },
         "frame": "task",
         "show_toast": true,
