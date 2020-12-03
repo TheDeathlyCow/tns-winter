@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "I'm Shiny!"
+        },
+        "description": {
+            "text": "Bring 16 emeralds to the Fish Totem (+30 Favour)*"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:totems/fish"
+}

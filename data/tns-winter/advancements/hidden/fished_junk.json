@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "tag": "tns-winter:fishing_junk_items"
+                }
+            }
+        }
+    }
+}

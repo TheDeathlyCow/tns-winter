@@ -5,11 +5,11 @@
             "color": "gold"
         },
         "description": {
-            "text": "Tasks to be completed for favour",
+            "text": "Tasks to be completed for favour (tasks marked with * are repeatable)",
             "color": "yellow"
         },
         "icon": {
-            "item": "minecraft:oak_planks"
+            "item": "minecraft:enchanted_golden_apple"
         },
         "frame": "task",
         "show_toast": false,

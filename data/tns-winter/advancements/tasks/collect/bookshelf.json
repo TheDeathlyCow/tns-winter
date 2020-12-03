@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Avid Reader"
+        },
+        "description": {
+            "text": "Bring 8 booshelves to the Rabbit Totem (+30 Favour)*"
+        },
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:totems/rabbit"
+}

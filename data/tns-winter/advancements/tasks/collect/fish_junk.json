@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Cleaning up the Ocean"
+        },
+        "description": {
+            "text": "Catch 5 junk items from fishing (+30 favour)*"
+        },
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:totems/fish"
+}

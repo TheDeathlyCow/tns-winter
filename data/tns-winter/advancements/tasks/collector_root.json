@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Offerings to the Spirits"
+        },
+        "description": {
+            "text": "Bring items to totem poles for favour"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Pile of Logs\"}'},SkullOwner:{Id:[I;371445827,-1710798929,-1269352192,-277087524],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QyY2UzYjI2M2E1ZjJjNzcxMzJlYmVmOWUxZDdjZTgyODg2ZmMzNWM4OTNmYjJhZjk3ZGY3OGU5NjFmYzQifX19\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "on_log_in": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "tns-winter:tasks/root"
+}   
