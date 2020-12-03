@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Iceologer\"}'},SkullOwner:{Id:[I;693885624,709183140,-1770148777,-279481809],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FkMDgxNDI0ZmRhOWExMjM5ODhjNTE1N2ZkMTIxYmQ2MjZhMmQ5OGU5ZWEyYTI2Y2I5OTcyZDVkZGU0NWFhMyJ9fX0=\"}]}}}"
+        },
+        "title": {
+            "text": "Chillager",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text":"Defeat the Iceologer (+1000 Favour)",
+            "color": "light_purple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "tns-winter:story/dungeons/enter_snowflake",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

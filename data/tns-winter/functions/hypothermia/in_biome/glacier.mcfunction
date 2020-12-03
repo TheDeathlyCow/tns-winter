@@ -12,5 +12,8 @@ tag @s remove inTaiga
 tag @s remove inOcean
 tag @s remove outsideMap
 
-scoreboard players remove @s warmth 2
+scoreboard players add @s[advancements={tns-winter:story/enter_glacier=false}] Favour 20
+tellraw @s[advancements={tns-winter:story/enter_glacier=false}] {"text":"You gained 20 favour!","color":"gold"}
+playsound minecraft:entity.experience_orb.pickup master @s[advancements={tns-winter:story/enter_glacier=false}] ~ ~ ~
+advancement grant @s only tns-winter:story/enter_glacier
 # title @s actionbar {"text":"Lush Taiga","color":"green"}

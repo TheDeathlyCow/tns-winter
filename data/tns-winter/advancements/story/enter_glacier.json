@@ -8,7 +8,7 @@
             "color": "dark_purple"
         },
         "description": {
-            "text":"Enter the Glaciers",
+            "text":"Enter the Glaciers (+20 Favour)",
             "color": "light_purple"
         },
         "frame": "task",
@@ -19,12 +19,7 @@
     "parent": "tns-winter:story/enter_mountains",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "location": {
-                    "biome": "minecraft:snowy_tundra"
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
     }
 }

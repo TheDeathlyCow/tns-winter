@@ -1,22 +1,22 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:snow_block"
+            "item": "minecraft:ice"
         },
         "title": {
-            "text":"Through the Wardrobe",
-            "color": "blue"
+            "text": "The Snowflake",
+            "color": "dark_purple"
         },
         "description": {
-            "text":"Enter the Frozen Forest (+20 Favour)",
-            "color": "aqua"
+            "text":"Enter the Snowflake (+50 Favour)",
+            "color": "light_purple"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "tns-winter:story/enter_mountains",
+    "parent": "tns-winter:story/enter_glacier",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"
