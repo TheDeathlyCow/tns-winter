@@ -18,15 +18,6 @@
                 }
             },
             "entity":"this"
-        },
-        {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-                "location": {
-                    "biome": "minecraft:snowy_taiga"
-                }
-            },
-            "entity":"this"
         }
     ]
 }

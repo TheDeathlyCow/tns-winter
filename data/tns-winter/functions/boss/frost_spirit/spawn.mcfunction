@@ -1,1 +1,0 @@
-summon evoker ~ ~ ~ {DeathLootTable:"tns-winter:entities/frost_spirit",PersistenceRequired:1b,Health:40f,Tags:["frostSpirit"],Passengers:[{id:"minecraft:armor_stand",Small:1b,Marker:0b,Invisible:1b,Tags:["frostSpiritRider"]}],CustomName:'{"text":"Frost Spirit","color":"aqua"}',Attributes:[{Name:generic.max_health,Base:40}]}

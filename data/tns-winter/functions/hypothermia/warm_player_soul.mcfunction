@@ -4,6 +4,6 @@
 
 # say warm player soul
 
-scoreboard players add @s warmth 18
+scoreboard players add @s warmth 24
 
 scoreboard players set warmedPlayers winterBoolean 1

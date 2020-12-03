@@ -8,7 +8,7 @@ execute if block ~ ~ ~ minecraft:water unless entity @s[tag=FishTotem] unless pr
 execute if block ~ ~1 ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
 
 scoreboard players remove @s[tag=inMountains] warmth 12
-scoreboard players remove @s[tag=inGlacier] warmth 12
+scoreboard players remove @s[tag=inGlacier] warmth 18
 scoreboard players remove @s[tag=inSnowTaiga] warmth 6
 scoreboard players remove @s[tag=outsideMap] warmth 120
 

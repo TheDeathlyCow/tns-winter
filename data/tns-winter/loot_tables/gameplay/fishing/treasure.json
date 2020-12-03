@@ -6,7 +6,8 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 2,
+                    "weight": 5,
+                    "quality": -1,
                     "functions": [
                         {
                             "function": "minecraft:set_damage",
@@ -25,7 +26,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 2,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -37,13 +38,32 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "golden_apple"
+                    "weight": 4,
+                    "name": "minecraft:golden_apple"
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "ancient_debris"
+                    "name": "minecraft:enchanted_golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
                 }
             ]
         }
