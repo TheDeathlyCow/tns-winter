@@ -64,6 +64,9 @@
                         {
                             "condition": "minecraft:random_chance",
                             "chance": 0.1
+                        },
+                        {
+                            "condition": "minecraft:killed_by_player"
                         }
                     ],
                     "name": "minecraft:chicken"
@@ -80,6 +83,9 @@
                         {
                             "condition": "random_chance",
                             "chance": 0.03
+                        },
+                        {
+                            "condition": "minecraft:killed_by_player"
                         }
                     ],
                     "functions": [
