@@ -2,8 +2,8 @@
 #
 # called by tns-winter:tick
 # tellraw @a[advancements={tns-winter:hidden/fished_junk=true}] "garbage!"
-scoreboard players add @a[advancements={tns-winter:hidden/fished_junk=true}] JunkFished 1
-execute as @a[scores={JunkFished=5}] run function tns-winter:favour/clean_ocean
-scoreboard players reset @a[scores={JunkFished=5}] JunkFished
+execute as @a[advancements={tns-winter:hidden/fished_junk=true}] run function tns-winter:favour/catch_junk
 
-advancement revoke @a[advancements={tns-winter:hidden/fished_junk=true}] only tns-winter:hidden/fished_junk
+scoreboard players enable @a FavourShop
+execute as @a[scores={FavourShop=1..}] at @s run function tns-winter:favour/display_shop
+scoreboard players set @a FavourShop 0

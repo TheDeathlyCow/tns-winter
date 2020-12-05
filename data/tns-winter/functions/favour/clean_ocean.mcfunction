@@ -2,7 +2,6 @@
 # at ambiguous
 # called by tns-winter:favour/tick
 
-advancement grant @s only tns-winter:tasks/collect/fish_junk
 advancement revoke @s only tns-winter:tasks/collect/fish_junk
 tellraw @s {"text":"You gained 30 favour!","color":"gold"}
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~

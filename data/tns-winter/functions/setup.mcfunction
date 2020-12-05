@@ -77,6 +77,8 @@ scoreboard players set @a TimeSinceHit 0
 scoreboard objectives add HeatAbsorbed dummy
 scoreboard objectives add JunkFished dummy
 scoreboard objectives add FavourBackup dummy
+scoreboard objectives add FavourShop trigger
 
 scoreboard objectives add Favour dummy {"text":"Favour","color":"gold"}
 scoreboard objectives add GetFavour trigger
+

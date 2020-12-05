@@ -43,7 +43,7 @@ scoreboard players enable @a WinterHelp
 scoreboard players set @a[gamemode=creative] warmth 0
 scoreboard players set @a[gamemode=spectator] warmth 0
 
-
+scoreboard players set @a[advancements={tns-winter:root=false}] TotemCooldown 37000
 # boss related tick
 function tns-winter:boss/tick
 # favour tasks tick

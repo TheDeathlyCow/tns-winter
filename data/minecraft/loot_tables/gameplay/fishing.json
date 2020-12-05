@@ -34,7 +34,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 85,
-          "quality": -15,
+          "quality": -5,
           "name": "tns-winter:gameplay/fishing/fish"
         }
       ]

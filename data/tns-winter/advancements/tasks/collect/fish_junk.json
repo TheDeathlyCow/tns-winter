@@ -15,10 +15,39 @@
         "hidden": false
     },
     "criteria": {
-        "enterMansion": {
+        "tns-winter:first_junk": {
+            "trigger": "minecraft:impossible"
+        },
+        "tns-winter:second_junk": {
+            "trigger": "minecraft:impossible"
+        },
+        "tns-winter:third_junk": {
+            "trigger": "minecraft:impossible"
+        },
+        "tns-winter:fourth_junk": {
+            "trigger": "minecraft:impossible"
+        },
+        "tns-winter:fifth_junk": {
             "trigger": "minecraft:impossible"
         }
     },
+    "requirements": [
+        [
+            "tns-winter:first_junk"
+        ],
+        [
+            "tns-winter:second_junk"
+        ],
+        [
+            "tns-winter:third_junk"
+        ],
+        [
+            "tns-winter:fourth_junk"
+        ],
+        [
+            "tns-winter:fifth_junk"
+        ]
+    ],
     "rewards": {
         "experience": 10
     },

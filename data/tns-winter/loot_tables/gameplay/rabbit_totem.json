@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 10,
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
