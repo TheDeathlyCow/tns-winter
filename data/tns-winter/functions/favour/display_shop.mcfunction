@@ -120,7 +120,8 @@ execute if entity @s[scores={FavourShop=1001,FishTotemLevel=..1}] run function t
 execute if entity @s[scores={FavourShop=1002,RabbitTotemLevel=..1}] run function tns-winter:animal_totems/rabbit/upgrade
 execute if entity @s[scores={FavourShop=1003,FoxTotemLevel=..1}] run function tns-winter:animal_totems/fox/upgrade
 execute if entity @s[scores={FavourShop=1004,WolfTotemLevel=..1}] run function tns-winter:animal_totems/wolf/upgrade
-execute if entity @s[scores={FavourShop=1005}] run function tns-winter:animal_totems/raven/upgrade
+execute if entity @s[scores={FavourShop=1005,RavenTotemLevel=..1}] run function tns-winter:animal_totems/raven/upgrade
+execute if entity @s[scores={FavourShop=1006,BearTotemLevel=..1}] run function tns-winter:animal_totems/bear/upgrade
 
 
 
