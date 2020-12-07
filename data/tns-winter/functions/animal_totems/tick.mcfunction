@@ -29,6 +29,9 @@ scoreboard players set @a[scores={FollowWolf=1}] FollowWolf 0
 execute as @a[scores={FollowRaven=1}] at @s run function tns-winter:animal_totems/raven/follow
 scoreboard players set @a[scores={FollowRaven=1}] FollowRaven 0
 
+execute as @a[scores={FollowBear=1}] at @s run function tns-winter:animal_totems/bear/follow
+scoreboard players set @a[scores={FollowBear=1}] FollowBear 0
+
 scoreboard players add @e[tag=summonedWolf] wolfPackTimer 1
 execute as @e[tag=summonedWolf] at @s if score @s wolfPackTimer matches 2400.. run function tns-winter:animal_totems/wolf/dissummon_wolf_pack
 

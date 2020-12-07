@@ -7,6 +7,8 @@
 execute if block ~ ~ ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
 execute if block ~ ~1 ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
 
+execute if entity @s[tag=BearTotem] if predicate tns-winter:has_full_hunger run function tns-winter:animal_totems/bear/passive
+
 scoreboard players remove @s[tag=inMountains] warmth 12
 scoreboard players remove @s[tag=inGlacier] warmth 18
 scoreboard players remove @s[tag=inSnowTaiga] warmth 6

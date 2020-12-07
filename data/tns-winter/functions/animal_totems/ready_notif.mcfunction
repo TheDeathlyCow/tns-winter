@@ -19,3 +19,6 @@ playsound minecraft:entity.wolf.howl master @s[tag=WolfTotem] ~ ~ ~ 1 1 1
 
 tellraw @s[tag=RavenTotem] {"text":"Your totem is ready!","color":"dark_purple"}
 playsound minecraft:entity.parrot.ambient master @s[tag=RavenTotem] ~ ~ ~ 1 0.5 1
+
+tellraw @s[tag=BearTotem] {"text":"Your totem is ready!","color":"aqua"}
+playsound minecraft:entity.polar_bear.warning master @s[tag=BearTotem] ~ ~ ~ 1 0.9 1

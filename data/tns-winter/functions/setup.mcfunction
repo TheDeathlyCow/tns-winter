@@ -45,6 +45,7 @@ team add foxGuide "Totem of the Fox"
 team add rabbitGuide "Totem of the Rabbit"
 team add wolfGuide "Totem of the Wolf"
 team add ravenGuide "Totem of the Raven"
+team add bearGuide "Totem of the Bear"
 
 team modify beeGuide color yellow
 team modify beeGuide prefix {"text":"<Bee> ","bold":false,"color":"#241e1e"}
@@ -64,6 +65,9 @@ team modify wolfGuide prefix {"text":"<Wolf> ","bold":false,"color":"#1e1e38"}
 team modify ravenGuide color dark_purple
 team modify ravenGuide prefix {"text":"<Raven> ","bold":true,"color":"#200670"}
 
+team modify bearGuide color aqua
+team modify bearGuide prefix {"text":"<Bear> ","bold":true,"color":"#0a99ff"}
+
 scoreboard objectives add CraftingTimer dummy
 scoreboard objectives add winterSleep dummy
 scoreboard objectives add wntrPotionID dummy
@@ -82,3 +86,10 @@ scoreboard objectives add FavourShop trigger
 scoreboard objectives add Favour dummy {"text":"Favour","color":"gold"}
 scoreboard objectives add GetFavour trigger
 
+scoreboard objectives add BeeTotemLevel dummy
+scoreboard objectives add FishTotemLevel dummy
+scoreboard objectives add RabbitTotemLevel dummy
+scoreboard objectives add FoxTotemLevel dummy
+scoreboard objectives add WolfTotemLevel dummy
+scoreboard objectives add RavenTotemLevel dummy
+scoreboard objectives add BearTotemLevel dummy
