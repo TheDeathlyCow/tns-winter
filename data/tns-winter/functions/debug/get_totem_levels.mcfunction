@@ -1,0 +1,7 @@
+tellraw @p [{"text":"bee level: "},{"score":{"name":"@s","objective":"BeeTotemLevel"}}]
+tellraw @p [{"text":"fish level: "},{"score":{"name":"@s","objective":"FishTotemLevel"}}]
+tellraw @p [{"text":"rabbit level: "},{"score":{"name":"@s","objective":"RabbitTotemLevel"}}]
+tellraw @p [{"text":"fox level: "},{"score":{"name":"@s","objective":"FoxTotemLevel"}}]
+tellraw @p [{"text":"wolf level: "},{"score":{"name":"@s","objective":"WolfTotemLevel"}}]
+tellraw @p [{"text":"raven level: "},{"score":{"name":"@s","objective":"RavenTotemLevel"}}]
+tellraw @p [{"text":"bear level: "},{"score":{"name":"@s","objective":"BearTotemLevel"}}]
