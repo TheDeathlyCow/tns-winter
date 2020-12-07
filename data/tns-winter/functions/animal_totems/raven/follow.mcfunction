@@ -10,12 +10,12 @@ tag @s add RavenTotem
 tag @s remove BearTotem
 
 
-# raven-specific tags
-tag @s remove RavenUsedBee
-tag @s remove RavenUsedFish
-tag @s remove RavenUsedFox
-tag @s remove RavenUsedRabbit
-tag @s remove RavenUsedWolf
+# raven use scores
+scoreboard players set @s RavenUsedBee 0
+scoreboard players set @s RavenUsedFish 0
+scoreboard players set @s RavenUsedFox 0
+scoreboard players set @s RavenUsedRabbit 0
+scoreboard players set @s RavenUsedWolf 0
 
 
 tellraw @s {"text":"Use /trigger AnimalTotem to call upon any Spirit you choose!","color":"dark_purple"}

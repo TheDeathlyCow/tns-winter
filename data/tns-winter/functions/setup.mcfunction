@@ -94,3 +94,10 @@ scoreboard objectives add WolfTotemLevel dummy
 scoreboard objectives add RavenTotemLevel dummy
 scoreboard objectives add BearTotemLevel dummy
 scoreboard objectives add LevelOnPurchase dummy
+
+# raven totem use scores
+scoreboard objectives add RavenUsedBee dummy
+scoreboard objectives add RavenUsedFish dummy
+scoreboard objectives add RavenUsedFox dummy
+scoreboard objectives add RavenUsedRabbit dummy
+scoreboard objectives add RavenUsedWolf dummy

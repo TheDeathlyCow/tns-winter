@@ -43,9 +43,9 @@ scoreboard players enable @a[scores={TotemCooldown=36000..},tag=BeeTotem] Animal
 # execute as @a if score @s TotemCooldown matches 36000.. if entity @s[tag=BeeTotem] run scoreboard players enable @s AnimalTotem
 
 # raven-specific
-execute as @a[scores={RavenTotem=1}] at @s unless entity @s[tag=RavenUsedBee] run function tns-winter:animal_totems/raven/use_bee
-execute as @a[scores={RavenTotem=2}] at @s unless entity @s[tag=RavenUsedFish] run function tns-winter:animal_totems/raven/use_fish
-execute as @a[scores={RavenTotem=3}] at @s unless entity @s[tag=RavenUsedRabbit] run function tns-winter:animal_totems/raven/use_rabbit
-execute as @a[scores={RavenTotem=4}] at @s unless entity @s[tag=RavenUsedFox] run function tns-winter:animal_totems/raven/use_fox
-execute as @a[scores={RavenTotem=5}] at @s unless entity @s[tag=RavenUsedWolf] run function tns-winter:animal_totems/raven/use_wolf
+execute as @a[scores={RavenTotem=1}] at @s if score @s RavenUsedBee < @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_bee
+execute as @a[scores={RavenTotem=2}] at @s if score @s RavenUsedFish < @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_fish
+execute as @a[scores={RavenTotem=3}] at @s if score @s RavenUsedRabbit < @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_rabbit
+execute as @a[scores={RavenTotem=4}] at @s if score @s RavenUsedFox < @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_fox
+execute as @a[scores={RavenTotem=5}] at @s if score @s RavenUsedWolf < @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_wolf
 scoreboard players set @a RavenTotem 0
