@@ -12,7 +12,9 @@ execute as @e[distance=..30] unless entity @s[tag=UsingTotem] run effect give @s
 # enchant @s lure 1
 # enchant @s fire_aspect 1
 # enchant @s unbreaking 1
-loot give @s loot tns-winter:gameplay/rabbit_totem
+loot give @s[scores={RabbitTotemLevel=1}] loot tns-winter:gameplay/weak_enchanted_book
+loot give @s[scores={RabbitTotemLevel=2}] loot tns-winter:gameplay/strong_enchanted_book
+
 
 # playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1
 tellraw @s [{"text":"The Spirit of the Rabbit grants you increased mobility, the ability to see through walls, and enchants your held item...","color":"#8f3c0b"}]
