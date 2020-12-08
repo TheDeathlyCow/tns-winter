@@ -1,0 +1,3 @@
+# this function is called by a player to mark something in the snowflake dungeon
+kill @e[type=armor_stand,tag=snowflakeEntrance]
+execute align xz run summon armor_stand ~0.5 ~2 ~0.5 {CustomNameVisible:1b,Small:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["snowflakeEntrance"],CustomName:'[{"text":"** ","color":"dark_purple","bold":true,"obfuscated":true},{"text":"Approach to enter ","color":"light_purple","bold":true,"obfuscated":false},{"text":"The Snowflake","color":"aqua","bold":true,"obfuscated":false},{"text":" **","color":"dark_purple","obfuscated":true}]'}

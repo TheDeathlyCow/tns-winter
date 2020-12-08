@@ -3,6 +3,9 @@
 # called by: tns-winter:custom_crafting/check_crafting
 tag @s add CraftingItemMarked
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:splash_potion",tag:{Potion:"minecraft:poison"},Count:1b}}] run tag @s add WinterArrow
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:splash_potion",tag:{Potion:"minecraft:harming"},Count:1b}}] run tag @s add WinterArrow
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:splash_potion",tag:{Potion:"minecraft:strong_harming"},Count:1b}}] run tag @s add WinterArrow
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:potion",tag:{CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:300}]},Count:1b}}] run tag @s add WinterArrow
 
 
 tag @s[tag=WinterArrow] remove CraftingItemMarked
