@@ -1,1 +1,6 @@
-{"pack":{"pack_format":1,"description":"Adds hypothermia and functionality for the TNS 2020 winter event."}}
+{
+    "pack": {
+        "pack_format": 1,
+        "description": "Adds hypothermia and functionality for the TNS 2020 winter event."
+    }
+}
