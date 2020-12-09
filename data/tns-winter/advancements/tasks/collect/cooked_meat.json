@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Meaty Treats"
+        },
+        "description": {
+            "text": "Bring 8 cooked meat to the Wolf Totem (+20 Favour)*"
+        },
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tns-winter:totems/wolf"
+}

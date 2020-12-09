@@ -7,7 +7,7 @@ tellraw @s[scores={FavourShop=1}] [{"text":"❄❄❄ Spirit Favour Shop (click 
 tellraw @s[scores={FavourShop=1}] [{"text":"=== You have ","color":"gold"},{"score":{"name":"@s","objective":"Favour"},"color":"yellow"},{"text":" Favour ===","color":"gold"}]
 
 #! === display level up shop ===
-tellraw @s[scores={FavourShop=1,BeeTotemLevel=0}] [{"text":" Upgrade Bee Totem","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"250 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 1000"},"hoverEvent":{"action":"show_text","contents":{"text":"Upgrade your Bee Totem to add a Haste 2 effect when you activate your Bee Totem"}},"underlined":false}]
+tellraw @s[scores={FavourShop=1,BeeTotemLevel=0}] [{"text":" Upgrade Bee Totem","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"100 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 1000"},"hoverEvent":{"action":"show_text","contents":{"text":"Upgrade your Bee Totem to add a Haste 2 effect when you activate your Bee Totem"}},"underlined":false}]
 tellraw @s[scores={FavourShop=1,BeeTotemLevel=1}] [{"text":" Upgrade Bee Totem","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"500 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 1000"},"hoverEvent":{"action":"show_text","contents":{"text":"Upgrade your Bee Totem to get more items in your Builder Bee Chest"}},"underlined":false}]
 tellraw @s[scores={FavourShop=1,BeeTotemLevel=2}] [{"text":" Upgrade Bee Totem","color":"dark_green","strikethrough":true},{"text":" - 500 Favour","strikethrough":true,"color":"gold"}]
 
