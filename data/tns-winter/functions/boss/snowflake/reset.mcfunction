@@ -20,3 +20,6 @@ execute as @e[type=armor_stand,tag=barrelWest] at @s run setblock ~ ~ ~ barrel[f
 execute as @e[type=armor_stand,tag=barrelUp] at @s run setblock ~ ~ ~ air destroy
 execute as @e[type=armor_stand,tag=barrelUp] at @s run kill @e[type=item,distance=..1]
 execute as @e[type=armor_stand,tag=barrelUp] at @s run setblock ~ ~ ~ barrel[facing=up]{LootTable:"minecraft:chests/simple_dungeon"}
+
+teleport @e[type=evoker,tag=frostyEvoker] ~ -100 ~
+execute as @e[type=armor_stand,tag=evokerSpawn,distance=..100] at @s run function tns-winter:boss/frosty_evoker/spawn 

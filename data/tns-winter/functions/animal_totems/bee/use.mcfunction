@@ -6,4 +6,4 @@ give @s[scores={BeeTotemLevel=2}] chest{display:{Name:'{"text":"Level 2 Builder 
 
 effect give @s[scores={BeeTotemLevel=1..}] minecraft:haste 120 1
 playsound minecraft:entity.bee.loop_aggressive master @s[tag=BeeTotem] ~ ~ ~ 1 1 1
-tellraw @s [{"text":"The Spirit of the Bee bestows you with the materials to build all that you may desire...","color":"gold"}]
+tellraw @s [{"text":"The Spirit of the Bee grants you its boon to help you build all that you desire...","color":"gold"}]

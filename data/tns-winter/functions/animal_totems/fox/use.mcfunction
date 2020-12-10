@@ -8,4 +8,5 @@ scoreboard players add @s[scores={FoxTotemLevel=1..}] warmth 240
 effect give @s[scores={FoxTotemLevel=2}] minecraft:invisibility 32 1
 
 playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1
-tellraw @s [{"text":"The Spirit of the Fox grants you invisiblity and protection from the cold...","color":"#e8986f"}]
+tellraw @s[scores={FoxTotemLevel=0}] [{"text":"The Spirit of the Fox grants you greater mobility and evasiveness...","color":"#e8986f"}]
+tellraw @s[scores={FoxTotemLevel=1..}] [{"text":"The Spirit of the Fox grants you greater mobility and warmth...","color":"#e8986f"}]
