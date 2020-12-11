@@ -4,7 +4,7 @@
             "text": "Socially Distanced Potions"
         },
         "description": {
-            "text": "Use the fletching table to add a potion effect to some arrows"
+            "text": "Use the fletching table to add a potion effect to some arrows (+20 Favour)"
         },
         "icon": {
             "item": "minecraft:tipped_arrow",
@@ -21,7 +21,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/advancement_rewards/give_small_favour"
     },
     "parent": "tns-winter:survival/craft_fletching_table"
 }

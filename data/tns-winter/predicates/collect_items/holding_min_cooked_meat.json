@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "tag": "tns-winter:cooked_meat",
+                "count": {
+                    "min": 8
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@
             "text": "Herbal Medicine"
         },
         "description": {
-            "text": "Brew a potion in a cauldron"
+            "text": "Brew a potion in a cauldron (+20 Favour)"
         },
         "icon": {
             "item": "minecraft:potion",
@@ -21,7 +21,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/advancement_rewards/give_small_favour"
     },
     "parent": "tns-winter:survival/craft_cauldron"
 }

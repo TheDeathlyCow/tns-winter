@@ -4,7 +4,7 @@
             "text": "Warmth of the Spirits"
         },
         "description": {
-            "text": "Use an animal soul to build a soul campfire"
+            "text": "Use an animal soul to build a soul campfire (+20 Favour)"
         },
         "icon": {
             "item": "minecraft:soul_campfire"
@@ -30,7 +30,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/advancement_rewards/give_small_favour"
     },
     "parent": "tns-winter:survival/collect_soul"
 }

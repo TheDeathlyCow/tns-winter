@@ -5,7 +5,7 @@
             "color": "light_purple"
         },
         "description": {
-            "text": "Receive the soul of your fallen prey",
+            "text": "Receive the soul of your fallen prey (+50 Favour)",
             "color": "aqua"
         },
         "icon": {
@@ -32,7 +32,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/advancement_rewards/give_medium_favour"
     },
     "parent": "tns-winter:survival/root"
 }

@@ -8,4 +8,5 @@ execute as @e[type=falling_block,tag=iceologerAttack] at @s unless block ~ ~-1 ~
 execute at @e[type=falling_block,tag=iceologerAttack] as @a[dy=-0.1] unless score @s TimeSinceHit matches ..10 run function tns-winter:boss/iceologer/hit_player
 
 execute if score ticksUntilWarmthCheck winterDummy matches 0 as @e[type=armor_stand,tag=frostyEvokerRider] at @s run function tns-winter:boss/frosty_evoker/tick
+execute if score ticksUntilWarmthCheck winterDummy matches 10 as @e[type=armor_stand,tag=frostyEvokerRider] at @s run function tns-winter:boss/frosty_evoker/tick
 execute if score ticksUntilWarmthCheck winterDummy matches 0 as @e[type=armor_stand,tag=snowflakeEntrance,limit=1] at @s run function tns-winter:boss/snowflake/check_every_second
