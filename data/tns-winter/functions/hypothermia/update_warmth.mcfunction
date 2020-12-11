@@ -35,5 +35,5 @@ execute if predicate tns-winter:holding_blue_ice run scoreboard players remove @
 
 execute if score @s warmth matches ..-2001 run scoreboard players set @s warmth -2000
 execute if score @s warmth matches 0.. run scoreboard players set @s warmth 0
-
+scoreboard players set @a[nbt={Health:0.0f}] 0
 scoreboard players set warmedPlayers winterBoolean 0
