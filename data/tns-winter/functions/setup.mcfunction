@@ -95,6 +95,7 @@ scoreboard objectives add RavenTotemLevel dummy
 scoreboard objectives add BearTotemLevel dummy
 scoreboard objectives add LevelOnPurchase dummy
 scoreboard objectives add ExitSnowflake trigger
+scoreboard objectives add WinterHealth dummy
 
 # raven totem use scores
 scoreboard objectives add RavenUsedBee dummy
