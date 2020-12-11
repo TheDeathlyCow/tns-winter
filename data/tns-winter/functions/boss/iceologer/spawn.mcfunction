@@ -13,6 +13,7 @@ execute if score NumFighters winterDummy matches 4.. run data modify entity @e[t
 # debug only
 # data modify entity @e[type=illusioner,tag=chillagerBoss,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set value 800
 
+execute as @a[distance=..500] at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ 1 1 1
 
 effect give @e[type=illusioner,tag=chillagerBoss,limit=1] minecraft:instant_health 1 20 true
 bossbar add iceologer {"text":"Iceologer","color":"aqua","bold":true}

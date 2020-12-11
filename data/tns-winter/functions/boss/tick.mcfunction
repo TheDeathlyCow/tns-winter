@@ -3,10 +3,11 @@
 # called by: tns-winter:tick
 execute as @a[tag=FightingBoss] at @s run function tns-winter:boss/in_fight_tick
 execute if entity @a[tag=FightingBoss] as @e[type=illusioner,tag=chillagerBoss,limit=1] at @s run function tns-winter:boss/update_bossbar
-execute if entity @a[tag=FightingBoss] unless entity @e[type=illusioner,tag=chillagerBoss] run function tns-winter:boss/boss_died
+execute if entity @a[tag=FightingBoss] unless entity @e[type=illusioner,tag=chillagerBoss] unless entity @a[tag=FightingBoss,nbt={Health:0.0f}] run function tns-winter:boss/boss_died
 execute as @e[type=falling_block,tag=iceologerAttack] at @s unless block ~ ~-1 ~ minecraft:air run function tns-winter:boss/iceologer/kill_blocks
 execute at @e[type=falling_block,tag=iceologerAttack] as @a[dy=-0.1] unless score @s TimeSinceHit matches ..10 run function tns-winter:boss/iceologer/hit_player
 
+
 execute if score ticksUntilWarmthCheck winterDummy matches 0 as @e[type=armor_stand,tag=frostyEvokerRider] at @s run function tns-winter:boss/frosty_evoker/tick
 execute if score ticksUntilWarmthCheck winterDummy matches 10 as @e[type=armor_stand,tag=frostyEvokerRider] at @s run function tns-winter:boss/frosty_evoker/tick
-execute if score ticksUntilWarmthCheck winterDummy matches 0 as @e[type=armor_stand,tag=snowflakeEntrance,limit=1] at @s run function tns-winter:boss/snowflake/check_every_second
+    execute if score ticksUntilWarmthCheck winterDummy matches 0 as @e[type=armor_stand,tag=snowflakeEntrance,limit=1] at @s run function tns-winter:boss/snowflake/check_every_second

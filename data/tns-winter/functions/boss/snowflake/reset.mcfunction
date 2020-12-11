@@ -24,3 +24,5 @@ execute as @e[type=armor_stand,tag=barrelUp] at @s run setblock ~ ~ ~ barrel[fac
 teleport @e[type=evoker,tag=frostyEvoker] ~ -100 ~
 execute as @e[type=armor_stand,tag=evokerSpawn,distance=..100] at @s run function tns-winter:boss/frosty_evoker/spawn 
 execute as @e[type=armor_stand,tag=evokerSpawn,distance=..100] at @s run function tns-winter:boss/frosty_evoker/spawn_minions
+
+scoreboard players set WinterBossStage winterDummy 1

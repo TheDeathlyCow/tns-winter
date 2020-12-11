@@ -10,5 +10,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "tns-winter:boss/iceologer/player_take_shot"
     }
 }
