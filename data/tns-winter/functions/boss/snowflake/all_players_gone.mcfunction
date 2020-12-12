@@ -11,3 +11,5 @@ tag @e[type=armor_stand,tag=SnowflakeExitNodeOn,limit=1] remove SnowflakeExitNod
 bossbar remove minecraft:iceologer
 teleport @e[type=illusioner,tag=chillagerBoss,sort=nearest,limit=1] ~ -100 ~ 
 kill @e[type=illusioner,tag=chillagerBoss,sort=nearest,limit=1]
+
+function tns-winter:boss/snowflake/remove_all_frosty_mobs

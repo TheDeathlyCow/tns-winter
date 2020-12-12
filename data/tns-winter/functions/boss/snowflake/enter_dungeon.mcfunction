@@ -4,7 +4,7 @@
 
 tag @s add InSnowflake
 teleport @s ~ ~-5 ~
-spawnpoint @s ~ ~-5 ~
+spawnpoint @s ~ ~-5 ~-3
 tellraw @s {"text":"You have entered the snowflake! Kill every Illager in the dungeon to open the Iceologer's Cave. You may use /trigger ExitSnowflake to exit at any time!","color":"aqua"}
 advancement grant @s only tns-winter:story/dungeons/enter_snowflake
 
@@ -13,3 +13,4 @@ execute as @a[tag=InSnowflake] run scoreboard players add NumSnowflakePlayers wi
 execute if score NumSnowflakePlayers winterDummy matches 1 run function tns-winter:boss/snowflake/reset
 
 execute if score WinterBossStage winterDummy matches 2 run tag @s add FightingBoss
+scoreboard players enable @s ExitSnowflake
