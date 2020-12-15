@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Chewies!"
+            "text": "Cold Blue Marble"
         },
         "description": {
-            "text": "Bring 16 bones to the Wolf Totem (+30 Favour)*"
+            "text": "Bring 16 blue ice to the Raven Totem (+100 Favour)*"
         },
         "icon": {
-            "item": "minecraft:bone"
+            "item": "minecraft:blue_ice"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,7 +20,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/collection_tasks/blue_ice"
     },
     "parent": "tns-winter:totems/wolf"
 }
