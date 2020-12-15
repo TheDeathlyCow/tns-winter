@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "item": "minecraft:salmon",
+                "count": {
+                    "min": 32
+                }
+            }
+        }
+    }
+}

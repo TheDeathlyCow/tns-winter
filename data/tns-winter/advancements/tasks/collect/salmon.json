@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Salmon Run"
+        },
+        "description": {
+            "text": "Bring 32 raw salmon to the Bear Totem (+40 Favour)*"
+        },
+        "icon": {
+            "item": "minecraft:salmon"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "tns-winter:favour/collection_tasks/raw_salmon"
+    },
+    "parent": "tns-winter:totems/bear"
+}
