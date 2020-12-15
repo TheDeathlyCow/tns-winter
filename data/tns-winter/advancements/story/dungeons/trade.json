@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": "For Science, You Monster!",
+        "description": "Trade with the Captured Researcher in the Lost Station (+100 Favour)",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "tns-winter:story/dungeons/enter_station",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{Tags:[\"frostyMob\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tns-winter:favour/advancement_rewards/give_large_favour"
+    }
+}

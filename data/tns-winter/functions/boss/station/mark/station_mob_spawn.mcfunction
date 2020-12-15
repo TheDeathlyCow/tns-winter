@@ -1,0 +1,2 @@
+# this function is called by a player to mark something in the station dungeon
+summon armor_stand ~ ~ ~ {CustomNameVisible:0b,Small:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["stationMobSpawn"]}

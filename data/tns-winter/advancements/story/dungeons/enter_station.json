@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_torch"
+        },
+        "title": {
+            "text": "The Lost Station",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text":"Enter the Lost Station (+20 Favour)",
+            "color": "light_purple"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "tns-winter:story/enter_glacier",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function":"tns-winter:favour/advancement_rewards/give_small_favour"
+    }
+}
