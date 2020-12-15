@@ -1,7 +1,8 @@
 # as players without instation tag
 # at station entrance
 # by tns-winter:boss/station/check every second
-teleport @s ~4.5 ~1 ~0.5
+teleport @s ~3.5 ~1 ~0.5
+spawnpoint @s ~3.5 ~1 ~0.5
 tag @s remove InStation
 tellraw @s {"text":"You have left the Lost Station.","color":"red"}
 playsound minecraft:block.note_block.bit master @s ~ ~ ~ 5 0.1

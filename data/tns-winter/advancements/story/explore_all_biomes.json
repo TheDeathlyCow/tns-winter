@@ -9,7 +9,7 @@
             "text": "Getting Around"
         },
         "description": {
-            "translate": "Visit every biome in the map"
+            "translate": "Visit every biome in the map (+100 Favour)"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -17,7 +17,8 @@
         "hidden": false
     },
     "rewards": {
-        "experience": 500
+        "experience": 500,
+        "function": "tns-winter:favour/advancement_rewards/give_large_favour"
     },
     "criteria": {
         "tns-winter:snowy_taiga": {
