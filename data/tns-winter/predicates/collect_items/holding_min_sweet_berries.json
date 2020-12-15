@@ -4,10 +4,9 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "item": "minecraft:rabbit_hide",
-                "nbt": "{Fur:1b}",
+                "item": "minecraft:sweet_berries",
                 "count": {
-                    "min": 16
+                    "min": 64
                 }
             }
         }

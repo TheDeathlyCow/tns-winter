@@ -4,7 +4,7 @@
             "text": "Berry Tasty"
         },
         "description": {
-            "text": "Bring 64 sweet berries to the Fox Totem (+15 Favour)*"
+            "text": "Bring 64 sweet berries to the Fox Totem (+30 Favour)*"
         },
         "icon": {
             "item": "minecraft:sweet_berries"
@@ -20,7 +20,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/collection_tasks/sweet_berries"
     },
     "parent": "tns-winter:totems/fox"
 }
