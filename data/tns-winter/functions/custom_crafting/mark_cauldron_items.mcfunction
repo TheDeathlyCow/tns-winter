@@ -12,6 +12,9 @@ execute if entity @s[type=item,nbt={Item:{id:"minecraft:sugar"}}] run tag @s add
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:poppy"}}] run tag @s add WinterPotionIngredient
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:phantom_membrane"}}] run tag @s add WinterPotionIngredient
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:spider_eye"}}] run tag @s add WinterPotionIngredient
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:kelp"}}] run tag @s add WinterPotionIngredient
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:sunflower"}}] run tag @s add WinterPotionIngredient
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:bone"}}] run tag @s add WinterPotionIngredient
 
 
 tag @s[tag=WinterPotionIngredient] remove CraftingItemMarked
