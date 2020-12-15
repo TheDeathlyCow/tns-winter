@@ -21,7 +21,7 @@ execute if predicate tns-winter:is_on_fire run scoreboard players add @s warmth 
 execute if predicate tns-winter:near_soul_campfire run function tns-winter:hypothermia/warm_player_soul
 
 # execute if score warmedPlayers winterBoolean matches 0 unless entity @s[tag=inGlacier] run function tns-winter:hypothermia/campfire_check
-execute if score warmedPlayers winterBoolean matches 0 unless entity @s[tag=inGlacier] run execute if predicate tns-winter:near_campfire run function tns-winter:hypothermia/warm_player
+execute if score @s Warmed matches 0 unless entity @s[tag=inGlacier] run execute if predicate tns-winter:near_campfire run function tns-winter:hypothermia/warm_player
 
 
 execute store result score @s winterSleep run data get entity @s SleepTimer 1
@@ -36,4 +36,4 @@ execute if predicate tns-winter:holding_blue_ice run scoreboard players remove @
 execute if score @s warmth matches ..-2001 run scoreboard players set @s warmth -2000
 execute if score @s warmth matches 0.. run scoreboard players set @s warmth 0
 scoreboard players set @a[nbt={Health:0.0f}] warmth 0
-scoreboard players set warmedPlayers winterBoolean 0
+scoreboard players set @s Warmed 0

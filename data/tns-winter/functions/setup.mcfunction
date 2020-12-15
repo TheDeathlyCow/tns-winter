@@ -19,6 +19,7 @@ scoreboard players set switchBoolean winterBoolean 2
 scoreboard players set ticksPerIceAttack winterDummy 200
 scoreboard players set FavourDeathPenalty winterDummy 20
 
+
 # scoreboard objectives add CraftFurHelmet trigger
 # scoreboard objectives add CraftFurChest trigger
 # scoreboard objectives add CraftFurLegs trigger
@@ -96,6 +97,7 @@ scoreboard objectives add BearTotemLevel dummy
 scoreboard objectives add LevelOnPurchase dummy
 scoreboard objectives add ExitSnowflake trigger
 scoreboard objectives add WinterHealth dummy
+scoreboard objectives add Warmed dummy
 
 # raven totem use scores
 scoreboard objectives add RavenUsedBee dummy

@@ -23,7 +23,8 @@
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 10,
+        "function": "tns-winter:favour/advancement_rewards/give_large_favour"
     },
     "parent": "tns-winter:totems/lush_taiga_root"
 }
