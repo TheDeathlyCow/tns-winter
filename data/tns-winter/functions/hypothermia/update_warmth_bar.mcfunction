@@ -11,3 +11,6 @@ execute if score @s warmth matches -1440..-1200 run function tns-winter:hypother
 execute if score @s warmth matches -1680..-1440 run function tns-winter:hypothermia/freezing/level6
 execute if score @s warmth matches -1920..-1680 run function tns-winter:hypothermia/freezing/level7
 execute if score @s warmth matches ..-1920 run function tns-winter:hypothermia/freezing/level8
+
+scoreboard players remove @a TicksUntilHeart 1
+execute as @a[scores={TicksUntilHeart=0,warmth=..-1680}] at @s run function tns-winter:hypothermia/freezing/heartbeat2

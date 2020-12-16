@@ -37,6 +37,7 @@ execute as @e[tag=summonedWolf] at @s if score @s wolfPackTimer matches 2400.. r
 
 scoreboard players enable @a[scores={TotemCooldown=12000..},tag=!BeeTotem] AnimalTotem
 scoreboard players enable @a[scores={TotemCooldown=36000..},tag=BeeTotem] AnimalTotem
+scoreboard players enable @a[scores={TotemCooldown=12000..},tag=RavenTotem] RavenTotem
 
 # execute as @a if score @s TotemCooldown matches 12000.. unless entity @s[tag=BeeTotem] run scoreboard players enable @s AnimalTotem
 # execute as @a if score @s TotemCooldown matches 12000.. if entity @s[tag=RavenTotem] run scoreboard players enable @s RavenTotem

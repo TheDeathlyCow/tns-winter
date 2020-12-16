@@ -16,6 +16,8 @@ execute store result score ticksUntilSpawnCheck winterDummy run time query gamet
 scoreboard players operation ticksUntilSpawnCheck winterDummy %= ticksPerSpawnCheck winterDummy 
 execute if score ticksUntilSpawnCheck winterDummy matches 0 as @e[type=armor_stand,tag=spawnerStand] at @s run function tns-winter:spawners/check_spawners
 
+
+
 execute store result score ticksUntilBuffCheck winterDummy run time query gametime
 scoreboard players operation ticksUntilBuffCheck winterDummy %= ticksPerBuffCheck winterDummy 
 execute if score ticksUntilBuffCheck winterDummy matches 0 as @e[type=#tns-winter:hostile_mobs] at @s if predicate tns-winter:biome/in_cold_biome run function tns-winter:buff_mobs

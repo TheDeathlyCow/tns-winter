@@ -37,3 +37,5 @@ execute if score @s warmth matches ..-2001 run scoreboard players set @s warmth 
 execute if score @s warmth matches 0.. run scoreboard players set @s warmth 0
 scoreboard players set @a[nbt={Health:0.0f}] warmth 0
 scoreboard players set @s Warmed 0
+
+execute if score @s warmth matches ..-1680 run function tns-winter:hypothermia/freezing/heartbeat1

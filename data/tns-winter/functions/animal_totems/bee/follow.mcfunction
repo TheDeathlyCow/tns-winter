@@ -12,7 +12,7 @@ tag @s remove BearTotem
 
 tellraw @s {"text":"Use /trigger AnimalTotem to give yourself building materials and haste 2 (Cooldown of 10 minutes)!","color":"gold"}
 playsound minecraft:entity.bee.loop_aggressive master @s ~ ~ ~ 1 1 1
-scoreboard players set @s TotemCooldown 36001
+# scoreboard players set @s TotemCooldown 36001
 scoreboard players add @s BeeTotemLevel 0
 
 team join beeGuide @s

@@ -98,6 +98,7 @@ scoreboard objectives add LevelOnPurchase dummy
 scoreboard objectives add ExitSnowflake trigger
 scoreboard objectives add WinterHealth dummy
 scoreboard objectives add Warmed dummy
+scoreboard objectives add TicksUntilHeart dummy
 
 # raven totem use scores
 scoreboard objectives add RavenUsedBee dummy

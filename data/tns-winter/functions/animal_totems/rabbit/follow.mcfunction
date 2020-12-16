@@ -12,7 +12,7 @@ tag @s remove BearTotem
 
 tellraw @s {"text":"Use /trigger AnimalTotem to give yourself jump boost, the ability to see all nearby entities, and to enchant your held item (Cooldown of 10 minutes)!","color":"#8f3c0b"}
 playsound minecraft:entity.rabbit.attack master @s ~ ~ ~ 1 1 1
-scoreboard players set @s TotemCooldown 12001
+# scoreboard players set @s TotemCooldown 12001
 scoreboard players add @s RabbitTotemLevel 0
 
 team join rabbitGuide @s

@@ -12,7 +12,7 @@ tag @s add BearTotem
 tellraw @s {"text":"Use /trigger AnimalTotem to give yourself regeneration 2 and absorption 2 for 30 seconds (Cooldown of 10 minutes). You will also gain some warmth while you have full hunger!","color":"aqua"}
 
 playsound minecraft:entity.polar_bear.warning master @s ~ ~ ~ 1 0.9 1
-scoreboard players set @s TotemCooldown 12001
+# scoreboard players set @s TotemCooldown 12001
 
 scoreboard players add @s BearTotemLevel 0
 team join bearGuide @s

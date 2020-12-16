@@ -12,7 +12,7 @@ tag @s remove BearTotem
 
 tellraw @s {"text":"Use /trigger AnimalTotem to give yourself a temporary boost to luck and water breathing!","color":"red"}
 playsound minecraft:entity.fishing_bobber.splash master @s ~ ~ ~ 1 1 1
-scoreboard players set @s TotemCooldown 12001
+# scoreboard players set @s TotemCooldown 12001
 scoreboard players add @s FishTotemLevel 0
 
 team join fishGuide @s

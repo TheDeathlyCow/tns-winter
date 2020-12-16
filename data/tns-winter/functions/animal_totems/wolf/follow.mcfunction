@@ -10,7 +10,7 @@ tag @s remove RavenTotem
 
 tellraw @s {"text":"Use /trigger AnimalTotem to give yourself strength and companionship if you are in need!","color":"gray"}
 playsound minecraft:entity.wolf.howl master @s ~ ~ ~ 1 1 1
-scoreboard players set @s TotemCooldown 12001
+# scoreboard players set @s TotemCooldown 12001
 scoreboard players add @s WolfTotemLevel 0
 
 team join wolfGuide @s
