@@ -22,7 +22,7 @@
                         }
                     ],
                     "weight": 10,
-                    "quality": -3,
+                    "quality": -2,
                     "name": "tns-winter:gameplay/fishing/junk"
                 },
                 {
@@ -39,7 +39,7 @@
                         }
                     ],
                     "weight": 5,
-                    "quality": 3,
+                    "quality": 2,
                     "name": "tns-winter:gameplay/fishing/treasure"
                 },
                 {

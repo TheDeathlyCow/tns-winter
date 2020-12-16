@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "S#S",
+        "SSS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+        "S": {
+            "item": "minecraft:sand"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_sand",
+        "count": 8
+    }
+}
