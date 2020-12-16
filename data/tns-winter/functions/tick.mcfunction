@@ -20,7 +20,7 @@ execute if score ticksUntilSpawnCheck winterDummy matches 0 as @e[type=armor_sta
 
 execute store result score ticksUntilBuffCheck winterDummy run time query gametime
 scoreboard players operation ticksUntilBuffCheck winterDummy %= ticksPerBuffCheck winterDummy 
-execute if score ticksUntilBuffCheck winterDummy matches 0 as @e[type=#tns-winter:hostile_mobs] at @s if predicate tns-winter:biome/in_cold_biome run function tns-winter:buff_mobs
+# execute if score ticksUntilBuffCheck winterDummy matches 0 as @e[type=#tns-winter:hostile_mobs] at @s if predicate tns-winter:biome/in_cold_biome run function tns-winter:buff_mobs
 
 execute as @a[scores={winterDeaths=1..}] run function tns-winter:player_death
 scoreboard players set @a[scores={winterDeaths=1..}] winterDeaths 0

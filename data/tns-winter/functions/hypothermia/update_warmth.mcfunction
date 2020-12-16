@@ -7,14 +7,14 @@
 execute if block ~ ~ ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
 execute if block ~ ~1 ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
 
-execute if entity @s[tag=BearTotem,scores={BearTotemLevel=2}] if predicate tns-winter:has_full_hunger run function tns-winter:animal_totems/bear/passive
+execute if entity @s[tag=BearTotem,scores={BearTotemLevel=2},predicate=tns-winter:has_full_hunger] run function tns-winter:animal_totems/bear/passive
 
 scoreboard players remove @s[tag=inMountains] warmth 12
-scoreboard players remove @s[tag=inGlacier] warmth 18
-scoreboard players remove @s[tag=inSnowTaiga] warmth 6
+scoreboard players remove @s[tag=inGlacier] warmth 16
+scoreboard players remove @s[tag=inSnowTaiga] warmth 8
 scoreboard players remove @s[tag=outsideMap] warmth 120
 
-execute if predicate tns-winter:is_on_fire run scoreboard players add @s warmth 6
+execute if predicate tns-winter:is_on_fire run scoreboard players add @s warmth 12
 
 
 # execute if entity @s[tag=inMountains] run function tns-winter:hypothermia/soul_campfire_check
@@ -28,7 +28,8 @@ execute store result score @s winterSleep run data get entity @s SleepTimer 1
 execute if score warmedPlayers winterBoolean matches 1 unless score @s winterSleep matches 0 run scoreboard players add @s warmth 3
 scoreboard players set @s winterSleep 0
 # check fur armour
-execute if score warmedPlayers winterBoolean matches 0 if entity @s[tag=inColdBiome] run function tns-winter:hypothermia/check_warmth_items
+# execute if score warmedPlayers winterBoolean matches 0 if entity @s[tag=inColdBiome] run function tns-winter:hypothermia/check_warmth_items
+execute if entity @s[tag=inColdBiome] run function tns-winter:hypothermia/check_warmth_items
 
 execute if predicate tns-winter:holding_blue_ice run scoreboard players remove @s warmth 24
 
