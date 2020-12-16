@@ -17,5 +17,5 @@ scoreboard players set @s TotemCooldown 12001
 scoreboard players add @s BearTotemLevel 0
 team join bearGuide @s
 advancement grant @s only tns-winter:totems/root
-advancement grant @s only tns-winter:totems/lush_taiga_root
+advancement grant @s only tns-winter:totems/glacier_root
 advancement grant @s only tns-winter:totems/bear

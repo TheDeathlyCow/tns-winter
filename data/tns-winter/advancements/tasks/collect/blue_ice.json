@@ -23,5 +23,5 @@
         "experience": 10,
         "function": "tns-winter:favour/collection_tasks/blue_ice"
     },
-    "parent": "tns-winter:totems/wolf"
+    "parent": "tns-winter:totems/raven"
 }
