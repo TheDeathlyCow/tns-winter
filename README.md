@@ -9,12 +9,3 @@ This is a Minecraft Datapack for version 1.16.3-1.16.4. It is installed by placi
 
 ## TNS Discord
 This datapack was developed for the Winter event on the Minecraft server Totally Not Suspicious (TNS). If you for some reason haven't joined TNS yet (why haven't you if you're reading this??) you can do so with this link: https://discord.gg/kz6BXsP. 
-
-# Hypothermia
-this datapack adds hypothermia
-
-# Animal guides
-this datapack adds animal guides
-
-# Survival changes
-this datapacks makes other miscellanous changes to survival minecraft. 
