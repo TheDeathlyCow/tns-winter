@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "A Fursuit"
+            "text": "New Zealand's National Dress"
         },
         "description": {
-            "text": "Craft fur armour in a cauldron (+20 Favour)"
+            "text": "Craft wool armour in a cauldron (+20 Favour)"
         },
         "icon": {
-            "item": "minecraft:leather_chestplate",
-            "nbt": "{display:{color:6043908}}"
+            "item": "minecraft:leather_helmet",
+            "nbt": "{display:{color:14011070}}"
         },
         "frame": "task",
         "show_toast": true,
@@ -24,5 +24,5 @@
         "experience": 10,
         "function": "tns-winter:favour/advancement_rewards/give_small_favour"
     },
-    "parent": "tns-winter:survival/craft_wool_armour"
+    "parent": "tns-winter:survival/craft_cauldron"
 }

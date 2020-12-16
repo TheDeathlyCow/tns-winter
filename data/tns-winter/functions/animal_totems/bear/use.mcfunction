@@ -7,6 +7,6 @@ effect give @s minecraft:absorption 30 0
 
 effect give @s[scores={BearTotemLevel=1..}] minecraft:regeneration 30 1
 effect give @s[scores={BearTotemLevel=1..}] minecraft:absorption 30 1
-
+effect give @s[scores={BearTotemLevel=1}] minecraft:resistance 60 0
 effect give @s[scores={BearTotemLevel=2}] minecraft:resistance 60 1
 tellraw @s [{"text":"The Spirit of the the Polar Bear grants you healing...","color":"#0a99ff"}]
