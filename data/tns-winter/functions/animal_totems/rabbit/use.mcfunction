@@ -18,6 +18,6 @@ loot give @s[scores={RabbitTotemLevel=2}] loot tns-winter:gameplay/strong_enchan
 
 # playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1
 tellraw @s[scores={RabbitTotemLevel=0}] [{"text":"The Spirit of the Rabbit grants you increased mobility and the ability to see through walls...","color":"#8f3c0b"}]
-tellraw @s[scores={RabbitTotemLevel=1..}] [{"text":"The Spirit of the Rabbit grants you great mobility and the power of wisdom...","color":"#8f3c0b"}]
+tellraw @s[scores={RabbitTotemLevel=1..}] [{"text":"The Spirit of the Rabbit grants you great mobility and the power of its wisdom...","color":"#8f3c0b"}]
 
 tag @s remove UsingTotem
