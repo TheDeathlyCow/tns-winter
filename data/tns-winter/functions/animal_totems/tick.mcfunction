@@ -50,3 +50,10 @@ execute as @a[scores={RavenTotem=3}] at @s if score @s RavenUsedRabbit <= @s Rav
 execute as @a[scores={RavenTotem=4}] at @s if score @s RavenUsedFox <= @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_fox
 execute as @a[scores={RavenTotem=5}] at @s if score @s RavenUsedWolf <= @s RavenTotemLevel run function tns-winter:animal_totems/raven/use_wolf
 scoreboard players set @a RavenTotem 0
+
+
+# handles use of double tap to activate totem
+
+scoreboard players add @a[predicate=!tns-winter:is_sneaking] TicksSinceSneak 1
+execute as @a[scores={TicksSinceSneak=1..10},predicate=tns-winter:is_sneaking] at @s run trigger AnimalTotem
+scoreboard players set @a[predicate=tns-winter:is_sneaking] TicksSinceSneak 0
