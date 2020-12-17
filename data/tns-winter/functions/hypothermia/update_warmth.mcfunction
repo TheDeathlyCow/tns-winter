@@ -4,8 +4,8 @@
 
 # say "update warmth"
 
-execute if block ~ ~ ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
-execute if block ~ ~1 ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 3
+execute if block ~ ~ ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 12
+# execute if block ~ ~1 ~ minecraft:water unless entity @s[tag=FishTotem] unless predicate tns-winter:in_boat run scoreboard players remove @s warmth 12
 
 execute if entity @s[tag=BearTotem,scores={BearTotemLevel=2},predicate=tns-winter:has_full_hunger] run function tns-winter:animal_totems/bear/passive
 
@@ -14,7 +14,7 @@ scoreboard players remove @s[tag=inGlacier] warmth 16
 scoreboard players remove @s[tag=inSnowTaiga] warmth 8
 scoreboard players remove @s[tag=outsideMap] warmth 120
 
-execute if predicate tns-winter:is_on_fire run scoreboard players add @s warmth 12
+execute if predicate tns-winter:is_on_fire run scoreboard players add @s warmth 24
 
 
 # execute if entity @s[tag=inMountains] run function tns-winter:hypothermia/soul_campfire_check
