@@ -46,10 +46,10 @@ tellraw @s[scores={FavourShop=1100}] [{"text":" Custom name tag","color":"dark_g
 tellraw @s[scores={FavourShop=1100}] [{"text":" Banner Pattern 'Skull'","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 9"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 'Skull' Banner Pattern. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
 tellraw @s[scores={FavourShop=1100}] [{"text":" Banner Pattern 'Thing'","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 8"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 'Thing' Banner Pattern. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
 tellraw @s[scores={FavourShop=1100}] [{"text":" Banner Pattern 'Creeper'","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 10"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 'Creeper' Banner Pattern. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
-tellraw @s[scores={FavourShop=1100}] [{"text":" vSharpies' head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1500 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 4"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 vSharpies head. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
-tellraw @s[scores={FavourShop=1100}] [{"text":" Scorrpine's Head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1500 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 5"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 Scorrpine head. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
-tellraw @s[scores={FavourShop=1100}] [{"text":" AlirQue's Head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1500 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 6"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 AlirQue head. Specify name with TheDeathlyCow. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
-tellraw @s[scores={FavourShop=1100}] [{"text":" TheDeathlyCow's Head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"1500 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 7"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 TheDeathlyCow head. Specify name with TheDeathlyCow. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
+tellraw @s[scores={FavourShop=1100}] [{"text":" vSharpies' head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"10000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 4"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 vSharpies head. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
+tellraw @s[scores={FavourShop=1100}] [{"text":" Scorrpine's Head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"10000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 5"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 Scorrpine head. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
+tellraw @s[scores={FavourShop=1100}] [{"text":" AlirQue's Head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"10000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 6"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 AlirQue head. Specify name with TheDeathlyCow. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
+tellraw @s[scores={FavourShop=1100}] [{"text":" TheDeathlyCow's Head","color":"dark_green"},{"text":" - ","color":"gold"},{"text":"10000 Favour","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 7"},"hoverEvent":{"action":"show_text","contents":{"text":"Buy 1 TheDeathlyCow head. Specify name with TheDeathlyCow. Register with TheDeathlyCow for transfer to Season 6"}},"underlined":false}]
 tellraw @s[scores={FavourShop=1100}] [{"text":"In order to transfer an item to Season 6, you must register it with TheDeathlyCow. To see the official register of all items to be transferred, click here: ","color":"aqua"},{"text":"https://bit.ly/33Isvdh","underlined":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://bit.ly/33Isvdh"}}]
 tellraw @s[scores={FavourShop=1100}] [{"text":"========= ","color":"gold"},{"text":"<<<","color":"gold","clickEvent":{"action":"run_command","value":"/trigger FavourShop set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to navigate"}},"underlined":false},{"text":" Page 2 of 2  =========","color":"gold"}]
 
@@ -66,28 +66,28 @@ tellraw @s[scores={FavourShop=3,Favour=1000..}] {"text":"You bought a Custom Nam
 scoreboard players remove @s[scores={FavourShop=3,Favour=1000..}] Favour 1000
 
 # buy a vSharpies head
-tellraw @s[scores={FavourShop=4,Favour=..1499}] {"text":"You do not have enough Favour for this item!","color":"red"}
-give @s[scores={FavourShop=4,Favour=1500..}] player_head{SkullOwner:"vSharpies",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
-tellraw @s[scores={FavourShop=4,Favour=1500..}] {"text":"You bought vSharpies' head for 1500 favour!","color":"gold"}
-scoreboard players remove @s[scores={FavourShop=4,Favour=1500..}] Favour 1500
+tellraw @s[scores={FavourShop=4,Favour=..9999}] {"text":"You do not have enough Favour for this item!","color":"red"}
+give @s[scores={FavourShop=4,Favour=10000..}] player_head{SkullOwner:"vSharpies",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
+tellraw @s[scores={FavourShop=4,Favour=10000..}] {"text":"You bought vSharpies' head for 10000 favour!","color":"gold"}
+scoreboard players remove @s[scores={FavourShop=4,Favour=10000..}] Favour 10000
 
 # buy a Scorrpine head
-tellraw @s[scores={FavourShop=5,Favour=..1499}] {"text":"You do not have enough Favour for this item!","color":"red"}
-give @s[scores={FavourShop=5,Favour=1500..}] player_head{SkullOwner:"Scorrpine",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
-tellraw @s[scores={FavourShop=5,Favour=1500..}] {"text":"You bought Scorrpine's head for 1500 favour!","color":"gold"}
-scoreboard players remove @s[scores={FavourShop=5,Favour=1500..}] Favour 1500
+tellraw @s[scores={FavourShop=5,Favour=..9999}] {"text":"You do not have enough Favour for this item!","color":"red"}
+give @s[scores={FavourShop=5,Favour=10000..}] player_head{SkullOwner:"Scorrpine",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
+tellraw @s[scores={FavourShop=5,Favour=10000..}] {"text":"You bought Scorrpine's head for 10000 favour!","color":"gold"}
+scoreboard players remove @s[scores={FavourShop=5,Favour=10000..}] Favour 10000
 
 # buy an AlirQue head
-tellraw @s[scores={FavourShop=6,Favour=..1499}] {"text":"You do not have enough Favour for this item!","color":"red"}
-give @s[scores={FavourShop=6,Favour=1500..}] player_head{SkullOwner:"AlirQue",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
-tellraw @s[scores={FavourShop=6,Favour=1500..}] {"text":"You bought AlirQue's head for 1500 favour!","color":"gold"}
-scoreboard players remove @s[scores={FavourShop=6,Favour=1500..}] Favour 1500
+tellraw @s[scores={FavourShop=6,Favour=..9999}] {"text":"You do not have enough Favour for this item!","color":"red"}
+give @s[scores={FavourShop=6,Favour=10000..}] player_head{SkullOwner:"AlirQue",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
+tellraw @s[scores={FavourShop=6,Favour=10000..}] {"text":"You bought AlirQue's head for 10000 favour!","color":"gold"}
+scoreboard players remove @s[scores={FavourShop=6,Favour=10000..}] Favour 10000
 
 # buy a TheDeathlyCow head
-tellraw @s[scores={FavourShop=7,Favour=..1499}] {"text":"You do not have enough Favour for this item!","color":"red"}
-give @s[scores={FavourShop=7,Favour=1500..}] player_head{SkullOwner:"TheDeathlyCow",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
-tellraw @s[scores={FavourShop=7,Favour=1500..}] {"text":"You bought TheDeathlyCow's head for 1500 favour!","color":"gold"}
-scoreboard players remove @s[scores={FavourShop=7,Favour=1500..}] Favour 1500
+tellraw @s[scores={FavourShop=7,Favour=..9999}] {"text":"You do not have enough Favour for this item!","color":"red"}
+give @s[scores={FavourShop=7,Favour=10000..}] player_head{SkullOwner:"TheDeathlyCow",display:{Lore:['{"text":"This item may be transferred to season 6 of TNS."}']},transferrable:1b} 1
+tellraw @s[scores={FavourShop=7,Favour=10000..}] {"text":"You bought TheDeathlyCow's head for 10000 favour!","color":"gold"}
+scoreboard players remove @s[scores={FavourShop=7,Favour=10000..}] Favour 10000
 
 # buy banner pattern 'thing'
 tellraw @s[scores={FavourShop=8,Favour=..999}] {"text":"You do not have enough Favour for this item!","color":"red"}
