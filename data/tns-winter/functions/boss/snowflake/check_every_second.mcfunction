@@ -7,7 +7,7 @@ tellraw @a[gamemode=adventure,distance=91..150] {"text":"[!!] Your gamemode has 
 gamemode survival @a[gamemode=adventure,distance=91..150]
 
 execute if score NumSnowflakePlayers winterDummy matches ..0 run scoreboard players set NumSnowflakePlayers winterDummy 0
-execute as @a[gamemode=adventure,distance=..5,tag=!InSnowflake,scores={SnowflakeRuns=..2}] run function tns-winter:boss/snowflake/enter_dungeon
+execute if score NumSnowflakePlayers winterDummy matches ..4 as @a[gamemode=adventure,distance=..5,tag=!InSnowflake,scores={SnowflakeRuns=..2}] run function tns-winter:boss/snowflake/enter_dungeon
 
 
 execute at @e[type=armor_stand,tag=SnowflakeExitNodeOn,limit=1] as @a[tag=InSnowflake,distance=..1.5] run function tns-winter:boss/snowflake/leave_dungeon
