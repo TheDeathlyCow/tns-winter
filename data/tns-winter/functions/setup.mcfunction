@@ -100,7 +100,8 @@ scoreboard objectives add WinterHealth dummy
 scoreboard objectives add Warmed dummy
 scoreboard objectives add TicksUntilHeart dummy
 scoreboard objectives add SnowflakeRuns dummy
-
+scoreboard objectives add ToggleSneak trigger
+scoreboard objectives add UsesSneakToggle dummy
 scoreboard objectives add TicksSinceSneak dummy
 
 # raven totem use scores
