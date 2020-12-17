@@ -45,8 +45,6 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 3,
-                    "quality": -1,
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
@@ -61,8 +59,6 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
-                    "quality": -1,
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
@@ -77,8 +73,6 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
-                    "quality": -1,
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
@@ -93,8 +87,6 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
-                    "quality": -1,
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
@@ -106,30 +98,6 @@
                             "tag": "{display:{color:6043908,Name:'{\"italic\":false,\"text\":\"Fur Boots\"}'},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-32622822,105860645,-1983883927,-46373960],Slot:\"feet\"}]}"
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "quality": 1,
-                    "name": "netherite_helmet"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "quality": 1,
-                    "name": "netherite_chestplate"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "quality": 1,
-                    "name": "netherite_leggings"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "quality": 1,
-                    "name": "netherite_boots"
                 }
             ],
             "conditions": [
