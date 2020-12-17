@@ -99,6 +99,7 @@ scoreboard objectives add ExitSnowflake trigger
 scoreboard objectives add WinterHealth dummy
 scoreboard objectives add Warmed dummy
 scoreboard objectives add TicksUntilHeart dummy
+scoreboard objectives add SnowflakeRuns dummy
 
 scoreboard objectives add TicksSinceSneak dummy
 
