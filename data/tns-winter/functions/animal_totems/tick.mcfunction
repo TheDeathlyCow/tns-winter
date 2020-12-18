@@ -55,11 +55,11 @@ scoreboard players set @a RavenTotem 0
 # handles use of double tap to activate totem
 
 scoreboard players add @a[predicate=!tns-winter:is_sneaking,scores={UsesSneakToggle=0}] TicksSinceSneak 1
-execute as @a[scores={TicksSinceSneak=1..10,UsesSneakToggle=0},predicate=tns-winter:is_sneaking] at @s run trigger AnimalTotem
+execute as @a[scores={TicksSinceSneak=1..6,UsesSneakToggle=0},predicate=tns-winter:is_sneaking] at @s run trigger AnimalTotem
 scoreboard players set @a[predicate=tns-winter:is_sneaking,scores={UsesSneakToggle=0}] TicksSinceSneak 0
 
 scoreboard players add @a[predicate=tns-winter:is_sneaking,scores={UsesSneakToggle=1}] TicksSinceSneak 1
-execute as @a[scores={TicksSinceSneak=1..10,UsesSneakToggle=1},predicate=!tns-winter:is_sneaking] at @s run trigger AnimalTotem
+execute as @a[scores={TicksSinceSneak=1..6,UsesSneakToggle=1},predicate=!tns-winter:is_sneaking] at @s run trigger AnimalTotem
 scoreboard players set @a[predicate=!tns-winter:is_sneaking,scores={UsesSneakToggle=1}] TicksSinceSneak 0
 
 scoreboard players enable @a ToggleSneak

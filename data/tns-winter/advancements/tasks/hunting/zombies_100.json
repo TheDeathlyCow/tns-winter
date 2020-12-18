@@ -4,9 +4,9 @@
         "description": "Kill 100 Zombies (+500 Favour)",
         "icon": {
             "item": "minecraft:zombie_head"
-        }
+        },
+        "frame":"challenge"
     },
-    "frame": "challenge",
     "parent": "tns-winter:tasks/hunting/zombies_10",
     "rewards": {
         "function": "tns-winter:favour/advancement_rewards/give_favour_500"
