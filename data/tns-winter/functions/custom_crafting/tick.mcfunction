@@ -5,7 +5,7 @@
 
 execute store result score ticksUntilCraftingCheck winterDummy run time query gametime
 scoreboard players operation ticksUntilCraftingCheck winterDummy %= ticksPerCraftingCheck winterDummy 
-execute if score ticksUntilCraftingCheck winterDummy matches 0 as @e[type=item] at @s unless entity @s[tag=CraftingItemMarked] run function tns-winter:custom_crafting/check_crafting
+execute if score ticksUntilCraftingCheck winterDummy matches 0 as @e[type=item,tag=!CraftingItemMarked] at @s run function tns-winter:custom_crafting/check_crafting
 scoreboard players add @e[type=item,tag=CraftingItemMarked] CraftingTimer 1
 execute as @e[type=item,tag=CraftingItemMarked] at @s if score @s CraftingTimer matches 60.. run function tns-winter:custom_crafting/craft_item
 
