@@ -1,12 +1,917 @@
 {
     "display": {
+        "title": "The Walking Dead Season 100",
+        "description": "Kill 100 Zombies (+300 Favour)",
         "icon": {
             "item": "minecraft:rotten_flesh"
-        },
-        "title": "The Walking Dead",
-        "description": "Kill 100 Zombies (+300 Favour)"
+        }
     },
-    "parent": "tns-winter:tasks/hunting/foxes",
+    "parent": "tns-winter:tasks/hunting/zombies_10",
+    "rewards": {
+        "function": "tns-winter:favour/advancement_rewards/give_favour_30"
+    },
+    "requirements": [
+        [
+            "killedZombie1"
+        ],
+        [
+            "killedZombie2"
+        ],
+        [
+            "killedZombie3"
+        ],
+        [
+            "killedZombie4"
+        ],
+        [
+            "killedZombie5"
+        ],
+        [
+            "killedZombie6"
+        ],
+        [
+            "killedZombie7"
+        ],
+        [
+            "killedZombie8"
+        ],
+        [
+            "killedZombie9"
+        ],
+        [
+            "killedZombie10"
+        ],
+        [
+            "killedZombie11"
+        ],
+        [
+            "killedZombie12"
+        ],
+        [
+            "killedZombie13"
+        ],
+        [
+            "killedZombie14"
+        ],
+        [
+            "killedZombie15"
+        ],
+        [
+            "killedZombie16"
+        ],
+        [
+            "killedZombie17"
+        ],
+        [
+            "killedZombie18"
+        ],
+        [
+            "killedZombie19"
+        ],
+        [
+            "killedZombie20"
+        ],
+        [
+            "killedZombie21"
+        ],
+        [
+            "killedZombie22"
+        ],
+        [
+            "killedZombie23"
+        ],
+        [
+            "killedZombie24"
+        ],
+        [
+            "killedZombie25"
+        ],
+        [
+            "killedZombie26"
+        ],
+        [
+            "killedZombie27"
+        ],
+        [
+            "killedZombie28"
+        ],
+        [
+            "killedZombie29"
+        ],
+        [
+            "killedZombie30"
+        ],
+        [
+            "killedZombie31"
+        ],
+        [
+            "killedZombie32"
+        ],
+        [
+            "killedZombie33"
+        ],
+        [
+            "killedZombie34"
+        ],
+        [
+            "killedZombie35"
+        ],
+        [
+            "killedZombie36"
+        ],
+        [
+            "killedZombie37"
+        ],
+        [
+            "killedZombie38"
+        ],
+        [
+            "killedZombie39"
+        ],
+        [
+            "killedZombie40"
+        ],
+        [
+            "killedZombie41"
+        ],
+        [
+            "killedZombie42"
+        ],
+        [
+            "killedZombie43"
+        ],
+        [
+            "killedZombie44"
+        ],
+        [
+            "killedZombie45"
+        ],
+        [
+            "killedZombie46"
+        ],
+        [
+            "killedZombie47"
+        ],
+        [
+            "killedZombie48"
+        ],
+        [
+            "killedZombie49"
+        ],
+        [
+            "killedZombie50"
+        ],
+        [
+            "killedZombie51"
+        ],
+        [
+            "killedZombie52"
+        ],
+        [
+            "killedZombie53"
+        ],
+        [
+            "killedZombie54"
+        ],
+        [
+            "killedZombie55"
+        ],
+        [
+            "killedZombie56"
+        ],
+        [
+            "killedZombie57"
+        ],
+        [
+            "killedZombie58"
+        ],
+        [
+            "killedZombie59"
+        ],
+        [
+            "killedZombie60"
+        ],
+        [
+            "killedZombie61"
+        ],
+        [
+            "killedZombie62"
+        ],
+        [
+            "killedZombie63"
+        ],
+        [
+            "killedZombie64"
+        ],
+        [
+            "killedZombie65"
+        ],
+        [
+            "killedZombie66"
+        ],
+        [
+            "killedZombie67"
+        ],
+        [
+            "killedZombie68"
+        ],
+        [
+            "killedZombie69"
+        ],
+        [
+            "killedZombie70"
+        ],
+        [
+            "killedZombie71"
+        ],
+        [
+            "killedZombie72"
+        ],
+        [
+            "killedZombie73"
+        ],
+        [
+            "killedZombie74"
+        ],
+        [
+            "killedZombie75"
+        ],
+        [
+            "killedZombie76"
+        ],
+        [
+            "killedZombie77"
+        ],
+        [
+            "killedZombie78"
+        ],
+        [
+            "killedZombie79"
+        ],
+        [
+            "killedZombie80"
+        ],
+        [
+            "killedZombie81"
+        ],
+        [
+            "killedZombie82"
+        ],
+        [
+            "killedZombie83"
+        ],
+        [
+            "killedZombie84"
+        ],
+        [
+            "killedZombie85"
+        ],
+        [
+            "killedZombie86"
+        ],
+        [
+            "killedZombie87"
+        ],
+        [
+            "killedZombie88"
+        ],
+        [
+            "killedZombie89"
+        ],
+        [
+            "killedZombie90"
+        ],
+        [
+            "killedZombie91"
+        ],
+        [
+            "killedZombie92"
+        ],
+        [
+            "killedZombie93"
+        ],
+        [
+            "killedZombie94"
+        ],
+        [
+            "killedZombie95"
+        ],
+        [
+            "killedZombie96"
+        ],
+        [
+            "killedZombie97"
+        ],
+        [
+            "killedZombie98"
+        ],
+        [
+            "killedZombie99"
+        ],
+        [
+            "killedZombie100"
+        ],
+        [
+            "killedZombie101"
+        ],
+        [
+            "killedZombie102"
+        ],
+        [
+            "killedZombie103"
+        ],
+        [
+            "killedZombie104"
+        ],
+        [
+            "killedZombie105"
+        ],
+        [
+            "killedZombie106"
+        ],
+        [
+            "killedZombie107"
+        ],
+        [
+            "killedZombie108"
+        ],
+        [
+            "killedZombie109"
+        ],
+        [
+            "killedZombie110"
+        ],
+        [
+            "killedZombie111"
+        ],
+        [
+            "killedZombie112"
+        ],
+        [
+            "killedZombie113"
+        ],
+        [
+            "killedZombie114"
+        ],
+        [
+            "killedZombie115"
+        ],
+        [
+            "killedZombie116"
+        ],
+        [
+            "killedZombie117"
+        ],
+        [
+            "killedZombie118"
+        ],
+        [
+            "killedZombie119"
+        ],
+        [
+            "killedZombie120"
+        ],
+        [
+            "killedZombie121"
+        ],
+        [
+            "killedZombie122"
+        ],
+        [
+            "killedZombie123"
+        ],
+        [
+            "killedZombie124"
+        ],
+        [
+            "killedZombie125"
+        ],
+        [
+            "killedZombie126"
+        ],
+        [
+            "killedZombie127"
+        ],
+        [
+            "killedZombie128"
+        ],
+        [
+            "killedZombie129"
+        ],
+        [
+            "killedZombie130"
+        ],
+        [
+            "killedZombie131"
+        ],
+        [
+            "killedZombie132"
+        ],
+        [
+            "killedZombie133"
+        ],
+        [
+            "killedZombie134"
+        ],
+        [
+            "killedZombie135"
+        ],
+        [
+            "killedZombie136"
+        ],
+        [
+            "killedZombie137"
+        ],
+        [
+            "killedZombie138"
+        ],
+        [
+            "killedZombie139"
+        ],
+        [
+            "killedZombie140"
+        ],
+        [
+            "killedZombie141"
+        ],
+        [
+            "killedZombie142"
+        ],
+        [
+            "killedZombie143"
+        ],
+        [
+            "killedZombie144"
+        ],
+        [
+            "killedZombie145"
+        ],
+        [
+            "killedZombie146"
+        ],
+        [
+            "killedZombie147"
+        ],
+        [
+            "killedZombie148"
+        ],
+        [
+            "killedZombie149"
+        ],
+        [
+            "killedZombie150"
+        ],
+        [
+            "killedZombie151"
+        ],
+        [
+            "killedZombie152"
+        ],
+        [
+            "killedZombie153"
+        ],
+        [
+            "killedZombie154"
+        ],
+        [
+            "killedZombie155"
+        ],
+        [
+            "killedZombie156"
+        ],
+        [
+            "killedZombie157"
+        ],
+        [
+            "killedZombie158"
+        ],
+        [
+            "killedZombie159"
+        ],
+        [
+            "killedZombie160"
+        ],
+        [
+            "killedZombie161"
+        ],
+        [
+            "killedZombie162"
+        ],
+        [
+            "killedZombie163"
+        ],
+        [
+            "killedZombie164"
+        ],
+        [
+            "killedZombie165"
+        ],
+        [
+            "killedZombie166"
+        ],
+        [
+            "killedZombie167"
+        ],
+        [
+            "killedZombie168"
+        ],
+        [
+            "killedZombie169"
+        ],
+        [
+            "killedZombie170"
+        ],
+        [
+            "killedZombie171"
+        ],
+        [
+            "killedZombie172"
+        ],
+        [
+            "killedZombie173"
+        ],
+        [
+            "killedZombie174"
+        ],
+        [
+            "killedZombie175"
+        ],
+        [
+            "killedZombie176"
+        ],
+        [
+            "killedZombie177"
+        ],
+        [
+            "killedZombie178"
+        ],
+        [
+            "killedZombie179"
+        ],
+        [
+            "killedZombie180"
+        ],
+        [
+            "killedZombie181"
+        ],
+        [
+            "killedZombie182"
+        ],
+        [
+            "killedZombie183"
+        ],
+        [
+            "killedZombie184"
+        ],
+        [
+            "killedZombie185"
+        ],
+        [
+            "killedZombie186"
+        ],
+        [
+            "killedZombie187"
+        ],
+        [
+            "killedZombie188"
+        ],
+        [
+            "killedZombie189"
+        ],
+        [
+            "killedZombie190"
+        ],
+        [
+            "killedZombie191"
+        ],
+        [
+            "killedZombie192"
+        ],
+        [
+            "killedZombie193"
+        ],
+        [
+            "killedZombie194"
+        ],
+        [
+            "killedZombie195"
+        ],
+        [
+            "killedZombie196"
+        ],
+        [
+            "killedZombie197"
+        ],
+        [
+            "killedZombie198"
+        ],
+        [
+            "killedZombie199"
+        ],
+        [
+            "killedZombie200"
+        ],
+        [
+            "killedZombie201"
+        ],
+        [
+            "killedZombie202"
+        ],
+        [
+            "killedZombie203"
+        ],
+        [
+            "killedZombie204"
+        ],
+        [
+            "killedZombie205"
+        ],
+        [
+            "killedZombie206"
+        ],
+        [
+            "killedZombie207"
+        ],
+        [
+            "killedZombie208"
+        ],
+        [
+            "killedZombie209"
+        ],
+        [
+            "killedZombie210"
+        ],
+        [
+            "killedZombie211"
+        ],
+        [
+            "killedZombie212"
+        ],
+        [
+            "killedZombie213"
+        ],
+        [
+            "killedZombie214"
+        ],
+        [
+            "killedZombie215"
+        ],
+        [
+            "killedZombie216"
+        ],
+        [
+            "killedZombie217"
+        ],
+        [
+            "killedZombie218"
+        ],
+        [
+            "killedZombie219"
+        ],
+        [
+            "killedZombie220"
+        ],
+        [
+            "killedZombie221"
+        ],
+        [
+            "killedZombie222"
+        ],
+        [
+            "killedZombie223"
+        ],
+        [
+            "killedZombie224"
+        ],
+        [
+            "killedZombie225"
+        ],
+        [
+            "killedZombie226"
+        ],
+        [
+            "killedZombie227"
+        ],
+        [
+            "killedZombie228"
+        ],
+        [
+            "killedZombie229"
+        ],
+        [
+            "killedZombie230"
+        ],
+        [
+            "killedZombie231"
+        ],
+        [
+            "killedZombie232"
+        ],
+        [
+            "killedZombie233"
+        ],
+        [
+            "killedZombie234"
+        ],
+        [
+            "killedZombie235"
+        ],
+        [
+            "killedZombie236"
+        ],
+        [
+            "killedZombie237"
+        ],
+        [
+            "killedZombie238"
+        ],
+        [
+            "killedZombie239"
+        ],
+        [
+            "killedZombie240"
+        ],
+        [
+            "killedZombie241"
+        ],
+        [
+            "killedZombie242"
+        ],
+        [
+            "killedZombie243"
+        ],
+        [
+            "killedZombie244"
+        ],
+        [
+            "killedZombie245"
+        ],
+        [
+            "killedZombie246"
+        ],
+        [
+            "killedZombie247"
+        ],
+        [
+            "killedZombie248"
+        ],
+        [
+            "killedZombie249"
+        ],
+        [
+            "killedZombie250"
+        ],
+        [
+            "killedZombie251"
+        ],
+        [
+            "killedZombie252"
+        ],
+        [
+            "killedZombie253"
+        ],
+        [
+            "killedZombie254"
+        ],
+        [
+            "killedZombie255"
+        ],
+        [
+            "killedZombie256"
+        ],
+        [
+            "killedZombie257"
+        ],
+        [
+            "killedZombie258"
+        ],
+        [
+            "killedZombie259"
+        ],
+        [
+            "killedZombie260"
+        ],
+        [
+            "killedZombie261"
+        ],
+        [
+            "killedZombie262"
+        ],
+        [
+            "killedZombie263"
+        ],
+        [
+            "killedZombie264"
+        ],
+        [
+            "killedZombie265"
+        ],
+        [
+            "killedZombie266"
+        ],
+        [
+            "killedZombie267"
+        ],
+        [
+            "killedZombie268"
+        ],
+        [
+            "killedZombie269"
+        ],
+        [
+            "killedZombie270"
+        ],
+        [
+            "killedZombie271"
+        ],
+        [
+            "killedZombie272"
+        ],
+        [
+            "killedZombie273"
+        ],
+        [
+            "killedZombie274"
+        ],
+        [
+            "killedZombie275"
+        ],
+        [
+            "killedZombie276"
+        ],
+        [
+            "killedZombie277"
+        ],
+        [
+            "killedZombie278"
+        ],
+        [
+            "killedZombie279"
+        ],
+        [
+            "killedZombie280"
+        ],
+        [
+            "killedZombie281"
+        ],
+        [
+            "killedZombie282"
+        ],
+        [
+            "killedZombie283"
+        ],
+        [
+            "killedZombie284"
+        ],
+        [
+            "killedZombie285"
+        ],
+        [
+            "killedZombie286"
+        ],
+        [
+            "killedZombie287"
+        ],
+        [
+            "killedZombie288"
+        ],
+        [
+            "killedZombie289"
+        ],
+        [
+            "killedZombie290"
+        ],
+        [
+            "killedZombie291"
+        ],
+        [
+            "killedZombie292"
+        ],
+        [
+            "killedZombie293"
+        ],
+        [
+            "killedZombie294"
+        ],
+        [
+            "killedZombie295"
+        ],
+        [
+            "killedZombie296"
+        ],
+        [
+            "killedZombie297"
+        ],
+        [
+            "killedZombie298"
+        ],
+        [
+            "killedZombie299"
+        ],
+        [
+            "killedZombie300"
+        ]
+    ],
     "criteria": {
         "killedZombie1": {
             "trigger": "minecraft:tick",
@@ -187,41 +1092,5226 @@
                     }
                 }
             }
+        },
+        "killedZombie11": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 11
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie12": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 12
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie13": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 13
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie14": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 14
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie15": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 15
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie16": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 16
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie17": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 17
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie18": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 18
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie19": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 19
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie20": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 20
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie21": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 21
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie22": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 22
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie23": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 23
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie24": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 24
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie25": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 25
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie26": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 26
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie27": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 27
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie28": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 28
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie29": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 29
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie30": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 30
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie31": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 31
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie32": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 32
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie33": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 33
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie34": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 34
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie35": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 35
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie36": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 36
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie37": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 37
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie38": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 38
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie39": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 39
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie40": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 40
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie41": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 41
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie42": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 42
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie43": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 43
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie44": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 44
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie45": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 45
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie46": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 46
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie47": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 47
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie48": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 48
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie49": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 49
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie50": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 50
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie51": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 51
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie52": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 52
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie53": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 53
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie54": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 54
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie55": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 55
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie56": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 56
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie57": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 57
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie58": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 58
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie59": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 59
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie60": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 60
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie61": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 61
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie62": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 62
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie63": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 63
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie64": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 64
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie65": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 65
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie66": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 66
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie67": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 67
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie68": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 68
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie69": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 69
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie70": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 70
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie71": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 71
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie72": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 72
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie73": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 73
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie74": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 74
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie75": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 75
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie76": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 76
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie77": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 77
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie78": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 78
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie79": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 79
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie80": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 80
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie81": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 81
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie82": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 82
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie83": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 83
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie84": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 84
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie85": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 85
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie86": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 86
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie87": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 87
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie88": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 88
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie89": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 89
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie90": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 90
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie91": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 91
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie92": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 92
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie93": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 93
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie94": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 94
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie95": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 95
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie96": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 96
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie97": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 97
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie98": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 98
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie99": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 99
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie100": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 100
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie101": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 101
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie102": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 102
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie103": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 103
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie104": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 104
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie105": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 105
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie106": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 106
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie107": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 107
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie108": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 108
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie109": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 109
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie110": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 110
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie111": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 111
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie112": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 112
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie113": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 113
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie114": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 114
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie115": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 115
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie116": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 116
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie117": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 117
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie118": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 118
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie119": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 119
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie120": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 120
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie121": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 121
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie122": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 122
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie123": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 123
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie124": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 124
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie125": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 125
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie126": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 126
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie127": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 127
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie128": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 128
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie129": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 129
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie130": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 130
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie131": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 131
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie132": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 132
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie133": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 133
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie134": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 134
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie135": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 135
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie136": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 136
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie137": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 137
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie138": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 138
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie139": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 139
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie140": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 140
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie141": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 141
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie142": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 142
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie143": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 143
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie144": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 144
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie145": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 145
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie146": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 146
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie147": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 147
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie148": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 148
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie149": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 149
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie150": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 150
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie151": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 151
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie152": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 152
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie153": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 153
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie154": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 154
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie155": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 155
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie156": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 156
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie157": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 157
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie158": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 158
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie159": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 159
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie160": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 160
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie161": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 161
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie162": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 162
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie163": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 163
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie164": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 164
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie165": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 165
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie166": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 166
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie167": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 167
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie168": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 168
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie169": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 169
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie170": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 170
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie171": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 171
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie172": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 172
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie173": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 173
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie174": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 174
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie175": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 175
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie176": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 176
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie177": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 177
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie178": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 178
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie179": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 179
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie180": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 180
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie181": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 181
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie182": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 182
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie183": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 183
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie184": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 184
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie185": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 185
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie186": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 186
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie187": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 187
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie188": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 188
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie189": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 189
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie190": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 190
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie191": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 191
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie192": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 192
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie193": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 193
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie194": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 194
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie195": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 195
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie196": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 196
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie197": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 197
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie198": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 198
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie199": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 199
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie200": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 200
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie201": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 201
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie202": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 202
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie203": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 203
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie204": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 204
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie205": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 205
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie206": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 206
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie207": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 207
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie208": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 208
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie209": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 209
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie210": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 210
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie211": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 211
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie212": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 212
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie213": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 213
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie214": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 214
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie215": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 215
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie216": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 216
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie217": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 217
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie218": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 218
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie219": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 219
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie220": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 220
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie221": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 221
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie222": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 222
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie223": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 223
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie224": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 224
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie225": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 225
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie226": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 226
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie227": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 227
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie228": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 228
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie229": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 229
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie230": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 230
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie231": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 231
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie232": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 232
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie233": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 233
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie234": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 234
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie235": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 235
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie236": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 236
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie237": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 237
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie238": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 238
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie239": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 239
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie240": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 240
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie241": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 241
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie242": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 242
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie243": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 243
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie244": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 244
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie245": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 245
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie246": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 246
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie247": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 247
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie248": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 248
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie249": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 249
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie250": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 250
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie251": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 251
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie252": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 252
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie253": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 253
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie254": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 254
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie255": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 255
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie256": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 256
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie257": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 257
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie258": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 258
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie259": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 259
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie260": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 260
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie261": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 261
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie262": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 262
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie263": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 263
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie264": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 264
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie265": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 265
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie266": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 266
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie267": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 267
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie268": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 268
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie269": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 269
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie270": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 270
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie271": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 271
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie272": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 272
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie273": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 273
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie274": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 274
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie275": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 275
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie276": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 276
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie277": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 277
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie278": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 278
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie279": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 279
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie280": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 280
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie281": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 281
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie282": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 282
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie283": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 283
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie284": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 284
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie285": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 285
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie286": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 286
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie287": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 287
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie288": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 288
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie289": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 289
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie290": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 290
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie291": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 291
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie292": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 292
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie293": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 293
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie294": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 294
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie295": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 295
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie296": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 296
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie297": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 297
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie298": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 298
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie299": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 299
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie300": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 300
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
-    },
-    "requirements": [
-        [
-            "killedZombie1"
-        ],
-        [
-            "killedZombie2"
-        ],
-        [
-            "killedZombie3"
-        ],
-        [
-            "killedZombie4"
-        ],
-        [
-            "killedZombie5"
-        ],
-        [
-            "killedZombie6"
-        ],
-        [
-            "killedZombie7"
-        ],
-        [
-            "killedZombie8"
-        ],
-        [
-            "killedZombie9"
-        ],
-        [
-            "killedZombie10"
-        ]
-    ],
-    "rewards": {
-        "function": "tns-winter:favour/advancement_rewards/give_favour_30"
     }
 }

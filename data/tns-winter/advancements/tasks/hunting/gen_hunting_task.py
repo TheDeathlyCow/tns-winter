@@ -62,15 +62,22 @@ def create_display(title, description, item, nbt=''):
 
 
 if __name__ == '__main__':
-    title = 'Test Title'
-    description = 'Test Desc'
-    item = 'minecraft:diamond'
+    title = 'The Walking Dead Season 100'
+    description = 'Kill 100 Zombies (+300 Favour)'
+    item = 'minecraft:rotten_flesh'
 
+    entity = 'zombie'
+    num_to_kill = 100
+    parent = 'tns-winter:tasks/hunting/zombies_10'
+    reward_favour = 300
+
+    filename = 'zombies_100.json'
+    
     display = create_display(title, description, item)
 
-    task = generate_task('sheep', 5, display, 'tns-winter:root')
+    task = generate_task(entity, num_to_kill, display, parent, reward_favour)
 
-    outfile = open('sheep_test.json', 'w')
+    outfile = open(filename, 'w')
     outfile.write(task)
     outfile.close()
 
