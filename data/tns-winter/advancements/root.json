@@ -18,9 +18,7 @@
         "background": "minecraft:textures/block/blue_ice.png"
     },
     "rewards": {
-        "loot": [
-            "tns-winter:advancement_rewards/login"
-        ]
+        "function": "tns-winter:winter_help"
     },
     "criteria": {
         "on_log_in": {

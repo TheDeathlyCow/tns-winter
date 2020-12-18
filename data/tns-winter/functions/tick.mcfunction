@@ -37,8 +37,7 @@ execute store result score daylightCycleToggled winterBoolean run gamerule doDay
 execute if score daylightCycleToggled winterBoolean matches 1 run function tns-winter:speed_day
 
 # handle trigger to give players a guide book
-loot give @a[scores={WinterHelp=1}] loot tns-winter:advancement_rewards/login
-scoreboard players set @a WinterHelp 0
+execute as @a[scores={WinterHelp=1}] at @s run function tns-winter:winter_help
 scoreboard players enable @a WinterHelp
 
 scoreboard players set @a[gamemode=creative] warmth 0
