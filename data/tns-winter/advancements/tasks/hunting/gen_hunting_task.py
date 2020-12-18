@@ -46,7 +46,6 @@ def generate_task(entity, num_to_kill, display, parent, reward_favour=30):
 
 def create_display(title, description, item, nbt=''):
     
-
     display = {
         'title': title,
         'description': description,
@@ -62,18 +61,19 @@ def create_display(title, description, item, nbt=''):
 
 
 if __name__ == '__main__':
-    title = 'The Walking Dead Season 100'
-    description = 'Kill 100 Zombies (+300 Favour)'
-    item = 'minecraft:rotten_flesh'
+    title = 'Strayed too Far'
+    description = 'Kill 25 Strays (+200 Favour)'
+    item = 'minecraft:tipped_arrow'
+    nbt = '{Potion:"slowness"}'
 
-    entity = 'zombie'
-    num_to_kill = 100
-    parent = 'tns-winter:tasks/hunting/zombies_10'
-    reward_favour = 300
+    entity = 'stray'
+    num_to_kill = 25 # this number will affect the length of the output file the most - by far
+    parent = 'tns-winter:tasks/hunting/foxes'
+    reward_favour = 100
 
-    filename = 'zombies_100.json'
-    
-    display = create_display(title, description, item)
+    filename = entity + 's.json'
+
+    display = create_display(title, description, item, nbt=nbt)
 
     task = generate_task(entity, num_to_kill, display, parent, reward_favour)
 

@@ -1,94 +1,95 @@
 {
     "display": {
-        "title": "Poor Charlotte",
-        "description": "Kill 25 Spiders (+100 Favour)",
+        "title": "Strayed too Far",
+        "description": "Kill 25 Strays (+200 Favour)",
         "icon": {
-            "item": "minecraft:spider_eye"
+            "item": "minecraft:tipped_arrow",
+            "nbt": "{Potion:\"slowness\"}"
         }
     },
-    "parent": "tns-winter:tasks/hunting/foxes",
+    "parent": "tns-winter:tasks/hunting/skeletons",
     "rewards": {
         "function": "tns-winter:favour/advancement_rewards/give_favour_100"
     },
     "requirements": [
         [
-            "killedSpider1"
+            "killedStray1"
         ],
         [
-            "killedSpider2"
+            "killedStray2"
         ],
         [
-            "killedSpider3"
+            "killedStray3"
         ],
         [
-            "killedSpider4"
+            "killedStray4"
         ],
         [
-            "killedSpider5"
+            "killedStray5"
         ],
         [
-            "killedSpider6"
+            "killedStray6"
         ],
         [
-            "killedSpider7"
+            "killedStray7"
         ],
         [
-            "killedSpider8"
+            "killedStray8"
         ],
         [
-            "killedSpider9"
+            "killedStray9"
         ],
         [
-            "killedSpider10"
+            "killedStray10"
         ],
         [
-            "killedSpider11"
+            "killedStray11"
         ],
         [
-            "killedSpider12"
+            "killedStray12"
         ],
         [
-            "killedSpider13"
+            "killedStray13"
         ],
         [
-            "killedSpider14"
+            "killedStray14"
         ],
         [
-            "killedSpider15"
+            "killedStray15"
         ],
         [
-            "killedSpider16"
+            "killedStray16"
         ],
         [
-            "killedSpider17"
+            "killedStray17"
         ],
         [
-            "killedSpider18"
+            "killedStray18"
         ],
         [
-            "killedSpider19"
+            "killedStray19"
         ],
         [
-            "killedSpider20"
+            "killedStray20"
         ],
         [
-            "killedSpider21"
+            "killedStray21"
         ],
         [
-            "killedSpider22"
+            "killedStray22"
         ],
         [
-            "killedSpider23"
+            "killedStray23"
         ],
         [
-            "killedSpider24"
+            "killedStray24"
         ],
         [
-            "killedSpider25"
+            "killedStray25"
         ]
     ],
     "criteria": {
-        "killedSpider1": {
+        "killedStray1": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -96,7 +97,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 1
                                 }
@@ -106,7 +107,7 @@
                 }
             }
         },
-        "killedSpider2": {
+        "killedStray2": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -114,7 +115,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 2
                                 }
@@ -124,7 +125,7 @@
                 }
             }
         },
-        "killedSpider3": {
+        "killedStray3": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -132,7 +133,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 3
                                 }
@@ -142,7 +143,7 @@
                 }
             }
         },
-        "killedSpider4": {
+        "killedStray4": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -150,7 +151,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 4
                                 }
@@ -160,7 +161,7 @@
                 }
             }
         },
-        "killedSpider5": {
+        "killedStray5": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -168,7 +169,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 5
                                 }
@@ -178,7 +179,7 @@
                 }
             }
         },
-        "killedSpider6": {
+        "killedStray6": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -186,7 +187,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 6
                                 }
@@ -196,7 +197,7 @@
                 }
             }
         },
-        "killedSpider7": {
+        "killedStray7": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -204,7 +205,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 7
                                 }
@@ -214,7 +215,7 @@
                 }
             }
         },
-        "killedSpider8": {
+        "killedStray8": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -222,7 +223,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 8
                                 }
@@ -232,7 +233,7 @@
                 }
             }
         },
-        "killedSpider9": {
+        "killedStray9": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -240,7 +241,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 9
                                 }
@@ -250,7 +251,7 @@
                 }
             }
         },
-        "killedSpider10": {
+        "killedStray10": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -258,7 +259,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 10
                                 }
@@ -268,7 +269,7 @@
                 }
             }
         },
-        "killedSpider11": {
+        "killedStray11": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -276,7 +277,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 11
                                 }
@@ -286,7 +287,7 @@
                 }
             }
         },
-        "killedSpider12": {
+        "killedStray12": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -294,7 +295,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 12
                                 }
@@ -304,7 +305,7 @@
                 }
             }
         },
-        "killedSpider13": {
+        "killedStray13": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -312,7 +313,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 13
                                 }
@@ -322,7 +323,7 @@
                 }
             }
         },
-        "killedSpider14": {
+        "killedStray14": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -330,7 +331,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 14
                                 }
@@ -340,7 +341,7 @@
                 }
             }
         },
-        "killedSpider15": {
+        "killedStray15": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -348,7 +349,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 15
                                 }
@@ -358,7 +359,7 @@
                 }
             }
         },
-        "killedSpider16": {
+        "killedStray16": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -366,7 +367,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 16
                                 }
@@ -376,7 +377,7 @@
                 }
             }
         },
-        "killedSpider17": {
+        "killedStray17": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -384,7 +385,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 17
                                 }
@@ -394,7 +395,7 @@
                 }
             }
         },
-        "killedSpider18": {
+        "killedStray18": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -402,7 +403,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 18
                                 }
@@ -412,7 +413,7 @@
                 }
             }
         },
-        "killedSpider19": {
+        "killedStray19": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -420,7 +421,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 19
                                 }
@@ -430,7 +431,7 @@
                 }
             }
         },
-        "killedSpider20": {
+        "killedStray20": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -438,7 +439,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 20
                                 }
@@ -448,7 +449,7 @@
                 }
             }
         },
-        "killedSpider21": {
+        "killedStray21": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -456,7 +457,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 21
                                 }
@@ -466,7 +467,7 @@
                 }
             }
         },
-        "killedSpider22": {
+        "killedStray22": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -474,7 +475,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 22
                                 }
@@ -484,7 +485,7 @@
                 }
             }
         },
-        "killedSpider23": {
+        "killedStray23": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -492,7 +493,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 23
                                 }
@@ -502,7 +503,7 @@
                 }
             }
         },
-        "killedSpider24": {
+        "killedStray24": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -510,7 +511,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 24
                                 }
@@ -520,7 +521,7 @@
                 }
             }
         },
-        "killedSpider25": {
+        "killedStray25": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
@@ -528,7 +529,7 @@
                         "stats": [
                             {
                                 "type": "minecraft:killed",
-                                "stat": "minecraft:spider",
+                                "stat": "minecraft:stray",
                                 "value": {
                                     "min": 25
                                 }

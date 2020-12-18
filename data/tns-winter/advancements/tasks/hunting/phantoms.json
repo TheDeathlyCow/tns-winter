@@ -1,0 +1,332 @@
+{
+    "display": {
+        "title": "Nightmares and Daydreams",
+        "description": "Kill 15 Phantoms (+100 Favour)",
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
+    "parent": "tns-winter:tasks/hunting/foxes",
+    "rewards": {
+        "function": "tns-winter:favour/advancement_rewards/give_favour_100"
+    },
+    "requirements": [
+        [
+            "killedPhantom1"
+        ],
+        [
+            "killedPhantom2"
+        ],
+        [
+            "killedPhantom3"
+        ],
+        [
+            "killedPhantom4"
+        ],
+        [
+            "killedPhantom5"
+        ],
+        [
+            "killedPhantom6"
+        ],
+        [
+            "killedPhantom7"
+        ],
+        [
+            "killedPhantom8"
+        ],
+        [
+            "killedPhantom9"
+        ],
+        [
+            "killedPhantom10"
+        ],
+        [
+            "killedPhantom11"
+        ],
+        [
+            "killedPhantom12"
+        ],
+        [
+            "killedPhantom13"
+        ],
+        [
+            "killedPhantom14"
+        ],
+        [
+            "killedPhantom15"
+        ]
+    ],
+    "criteria": {
+        "killedPhantom1": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom2": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom3": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 3
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom4": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 4
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom5": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 5
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom6": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 6
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom7": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 7
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom8": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 8
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom9": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom10": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 10
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom11": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 11
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom12": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 12
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom13": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 13
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom14": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 14
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedPhantom15": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:phantom",
+                                "value": {
+                                    "min": 15
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
