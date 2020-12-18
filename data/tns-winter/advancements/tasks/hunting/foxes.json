@@ -1,0 +1,101 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": "Hunter",
+        "description": "Kill 4 Foxes (+30 Favour)"
+    },
+    "parent": "tns-winter:root",
+    "criteria": {
+        "killedOneFox": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:fox",
+                                "value": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedTwoFoxes": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:fox",
+                                "value": {
+                                    "min": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedThreeFoxes": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:fox",
+                                "value": {
+                                    "min": 3
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedFourFoxes": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:fox",
+                                "value": {
+                                    "min": 4
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killedOneFox"
+        ],
+        [
+            "killedTwoFoxes"
+        ],
+        [
+            "killedThreeFoxes"
+        ],
+        [
+            "killedFourFoxes"
+        ]
+    ],
+    "rewards": {
+        "function": "tns-winter:favour/advancement_rewards/give_favour_30"
+    }
+}

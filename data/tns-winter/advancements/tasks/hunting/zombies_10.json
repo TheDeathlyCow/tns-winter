@@ -1,0 +1,227 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "title": "The Walking Dead",
+        "description": "Kill 10 Zombies (+30 Favour)"
+    },
+    "parent": "tns-winter:tasks/hunting/foxes",
+    "criteria": {
+        "killedZombie1": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie2": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie3": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 3
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie4": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 4
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie5": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 5
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie6": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 6
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie7": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 7
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie8": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 8
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie9": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedZombie10": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:zombie",
+                                "value": {
+                                    "min": 10
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killedZombie1"
+        ],
+        [
+            "killedZombie2"
+        ],
+        [
+            "killedZombie3"
+        ],
+        [
+            "killedZombie4"
+        ],
+        [
+            "killedZombie5"
+        ],
+        [
+            "killedZombie6"
+        ],
+        [
+            "killedZombie7"
+        ],
+        [
+            "killedZombie8"
+        ],
+        [
+            "killedZombie9"
+        ],
+        [
+            "killedZombie10"
+        ]
+    ],
+    "rewards": {
+        "function": "tns-winter:favour/advancement_rewards/give_favour_30"
+    }
+}

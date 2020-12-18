@@ -1,0 +1,122 @@
+{
+    "display": {
+        "title": "Test Title",
+        "description": "Test Desc",
+        "icon": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "parent": "tns-winter:root",
+    "rewards": {
+        "function": "tns-winter:favour/advancement_rewards/give_favour_30"
+    },
+    "requirements": [
+        [
+            "killedSheep1"
+        ],
+        [
+            "killedSheep2"
+        ],
+        [
+            "killedSheep3"
+        ],
+        [
+            "killedSheep4"
+        ],
+        [
+            "killedSheep5"
+        ]
+    ],
+    "criteria": {
+        "killedSheep1": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:sheep",
+                                "value": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedSheep2": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:sheep",
+                                "value": {
+                                    "min": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedSheep3": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:sheep",
+                                "value": {
+                                    "min": 3
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedSheep4": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:sheep",
+                                "value": {
+                                    "min": 4
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "killedSheep5": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:sheep",
+                                "value": {
+                                    "min": 5
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
