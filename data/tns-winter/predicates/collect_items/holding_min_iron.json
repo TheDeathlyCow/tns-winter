@@ -6,7 +6,7 @@
             "mainhand": {
                 "item": "minecraft:iron_ingot",
                 "count": {
-                    "min": 8
+                    "min": 12
                 }
             }
         }

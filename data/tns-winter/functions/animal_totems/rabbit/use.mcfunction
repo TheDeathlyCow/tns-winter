@@ -12,8 +12,11 @@ execute as @e[distance=..30] unless entity @s[tag=UsingTotem] run effect give @s
 # enchant @s lure 1
 # enchant @s fire_aspect 1
 # enchant @s unbreaking 1
-loot give @s[scores={RabbitTotemLevel=1}] loot tns-winter:gameplay/weak_enchanted_book
-loot give @s[scores={RabbitTotemLevel=2}] loot tns-winter:gameplay/strong_enchanted_book
+loot give @s[scores={RabbitTotemLevel=1},level=3..] loot tns-winter:gameplay/weak_enchanted_book
+loot give @s[scores={RabbitTotemLevel=2},level=5..] loot tns-winter:gameplay/strong_enchanted_book
+
+experience add @s[scores={RabbitTotemLevel=1},level=3..] -3 levels
+experience add @s[scores={RabbitTotemLevel=2},level=5..] -5 levels
 
 
 # playsound minecraft:entity.fox.eat master @s ~ ~ ~ 1 1 1

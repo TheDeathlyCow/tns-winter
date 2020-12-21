@@ -15,6 +15,7 @@ execute if entity @s[type=item,nbt={Item:{id:"minecraft:spider_eye"}}] run tag @
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:kelp"}}] run tag @s add WinterPotionIngredient
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:sunflower"}}] run tag @s add WinterPotionIngredient
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:bone"}}] run tag @s add WinterPotionIngredient
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_apple"}}] run tag @s add WinterPotionIngredient
 
 
 tag @s[tag=WinterPotionIngredient] remove CraftingItemMarked

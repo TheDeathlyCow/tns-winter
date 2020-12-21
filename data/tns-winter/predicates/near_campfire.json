@@ -3,6 +3,356 @@
     "terms": [
         {
             "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 1,
+            "offsetZ": -2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": -2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": -2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": -2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 1,
+            "offsetZ": -2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "block": "minecraft:campfire",
+                    "state": {
+                        "lit": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
             "offsetX": -3,
             "offsetY": 0,
             "offsetZ": -3,
@@ -689,286 +1039,6 @@
         },
         {
             "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": -2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -4,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": -2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -3,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -2,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -2,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
             "offsetX": -2,
             "offsetY": -1,
             "offsetZ": -2,
@@ -1028,62 +1098,6 @@
             "offsetX": -2,
             "offsetY": -1,
             "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -2,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -2,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": -3,
             "predicate": {
                 "block": {
                     "block": "minecraft:campfire",
@@ -1165,62 +1179,6 @@
         },
         {
             "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
             "offsetX": 0,
             "offsetY": -1,
             "offsetZ": -2,
@@ -1280,62 +1238,6 @@
             "offsetX": 0,
             "offsetY": -1,
             "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": -3,
             "predicate": {
                 "block": {
                     "block": "minecraft:campfire",
@@ -1417,62 +1319,6 @@
         },
         {
             "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 2,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 2,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
             "offsetX": 2,
             "offsetY": -1,
             "offsetZ": -2,
@@ -1532,286 +1378,6 @@
             "offsetX": 2,
             "offsetY": -1,
             "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 2,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 2,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": -2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 3,
-            "offsetY": -1,
-            "offsetZ": 4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": -4,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": -3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": -2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": 2,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": 3,
-            "predicate": {
-                "block": {
-                    "block": "minecraft:campfire",
-                    "state": {
-                        "lit": true
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:location_check",
-            "offsetX": 4,
-            "offsetY": -1,
-            "offsetZ": 4,
             "predicate": {
                 "block": {
                     "block": "minecraft:campfire",

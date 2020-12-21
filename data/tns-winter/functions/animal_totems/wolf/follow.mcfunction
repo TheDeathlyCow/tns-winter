@@ -7,6 +7,8 @@ tag @s remove FoxTotem
 tag @s remove RabbitTotem
 tag @s add WolfTotem
 tag @s remove RavenTotem
+tag @s remove BearTotem
+
 
 tellraw @s {"text":"Use /trigger AnimalTotem to give yourself strength and companionship if you are in need!","color":"gray"}
 playsound minecraft:entity.wolf.howl master @s ~ ~ ~ 1 1 1
