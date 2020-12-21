@@ -8,8 +8,7 @@ def generate_as_predicate(name, distance=3, height=2):
     }
     
     for dy in range (1, -height, -1):
-        width = distance - abs(dy) # decrease as we go up the pyramid
-        print(width)
+        width = distance - abs(dy) # decrease width as we go up the pyramid
         for dx in range(-1 * width, width + 1):
             for dz in range(-1 * width, width + 1):
                 current_predicate = {
@@ -29,7 +28,7 @@ def generate_as_predicate(name, distance=3, height=2):
                 campfire_check["terms"].append(current_predicate)
 
     outfile = open('near_' + name + '.json', 'w')
-    outfile.write(json.dumps(campfire_check))
+    outfile.write(json.dumps(campfire_check, sort_keys=True, indent=4))
     outfile.close()
 
 
